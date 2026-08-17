@@ -1,0 +1,101 @@
+{
+  "batch_id": "batch_A",
+  "pieces": [
+    {
+      "piece_id": "vivaldi_rv356_mvt1",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://kennedyviolins.com/blogs/education-center/suzuki-book-4-vivaldi-concerto-in-a-minor-1st-movement-violin-play-along-lesson", "path": "sources/vivaldi_rv356_mvt1/01_kennedy-violins-1st-mvt.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://heatherkayeviolin.com/vivaldi-violin-concerto-a-minor-allegro/", "path": "sources/vivaldi_rv356_mvt1/02_broadbent-allegro.md"}
+      ]
+    },
+    {
+      "piece_id": "bach_a_minor_bwv1041_mvt1",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://heatherkayeviolin.com/bach-violin-concerto-a-minor-andante/", "path": "sources/bach_a_minor_bwv1041_mvt1/01_broadbent-andante.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://fugueforthought.de/2016/03/15/bach-violin-concerto-in-a-minor-bwv-1041/", "path": "sources/bach_a_minor_bwv1041_mvt1/02_fugue-for-thought.md"},
+        {"n": "03", "source_type": "blog", "source_url": "https://www.classicfm.com/composers/bach/guides/bachs-violin-concertos-where-start/", "path": "sources/bach_a_minor_bwv1041_mvt1/03_classicfm-bach-concertos-guide.md"}
+      ]
+    },
+    {
+      "piece_id": "bach_a_minor_bwv1041_mvt3",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://fugueforthought.de/2016/03/15/bach-violin-concerto-in-a-minor-bwv-1041/", "path": "sources/bach_a_minor_bwv1041_mvt3/01_fugue-for-thought.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://heatherkayeviolin.com/bach-violin-concerto-a-minor-andante/", "path": "sources/bach_a_minor_bwv1041_mvt3/02_broadbent-andante.md"},
+        {"n": "03", "source_type": "blog", "source_url": "https://www.classicfm.com/composers/bach/guides/bachs-violin-concertos-where-start/", "path": "sources/bach_a_minor_bwv1041_mvt3/03_classicfm-bach-concertos-guide.md"}
+      ]
+    },
+    {
+      "piece_id": "bach_e_major_bwv1042_mvt1",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://muswrite.blogspot.com/2014/07/bach-violin-concerto-in-e-major-bwv-1042.html", "path": "sources/bach_e_major_bwv1042_mvt1/01_muswrite-blog.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://amusicalthought.wordpress.com/2018/03/27/violin-concerto-in-e-major-bwv-1042-bach/", "path": "sources/bach_e_major_bwv1042_mvt1/02_amusicalthought-blog.md"},
+        {"n": "03", "source_type": "blog", "source_url": "https://www.classicfm.com/composers/bach/guides/bachs-violin-concertos-where-start/", "path": "sources/bach_e_major_bwv1042_mvt1/03_classicfm-bach-concertos-guide.md"}
+      ]
+    },
+    {
+      "piece_id": "bach_double_bwv1043_mvt1_v1",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://thelistenersclub.com/2020/06/03/bachs-concerto-for-two-violins-the-netherlands-bach-society/", "path": "sources/bach_double_bwv1043_mvt1_v1/01_listenersclub-netherlands-bach.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://www.classicfm.com/composers/bach/guides/bachs-violin-concertos-where-start/", "path": "sources/bach_double_bwv1043_mvt1_v1/02_classicfm-bach-concertos-guide.md"}
+      ]
+    },
+    {
+      "piece_id": "handel_d_major_hwv371_mvt4",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://thelistenersclub.com/2024/04/08/handels-sonata-in-d-major-hwv-371-music-ripe-for-reuse/", "path": "sources/handel_d_major_hwv371_mvt4/01_listenersclub-handel-hwv371.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://www.hollywoodbowl.com/musicdb/pieces/4605/violin-sonata-hwv-371", "path": "sources/handel_d_major_hwv371_mvt4/02_hollywood-bowl-program-note.md"}
+      ]
+    },
+    {
+      "piece_id": "beriot_scene_de_ballet",
+      "sources": [
+        {"n": "01", "source_type": "other", "source_url": "http://cm2.chimeimuseum.org/ChimeiEN/music.aspx?id=sr022", "path": "sources/beriot_scene_de_ballet/01_chimei-museum-program-note.md"},
+        {"n": "02", "source_type": "strad", "source_url": "https://www.thestrad.com/bringing-singing-to-violin-technique-charles-auguste-de-beriot/1155.article", "path": "sources/beriot_scene_de_ballet/02_strad-stowell-beriot-methode.md"}
+      ]
+    },
+    {
+      "piece_id": "viotti_concerto_22_mvt1",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://interlude.hk/the-international-unknown-viotti-violin-concerto-no-22/", "path": "sources/viotti_concerto_22_mvt1/01_interlude-hk.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://www.hyperion-records.co.uk/dw.asp?dc=W1529_66840", "path": "sources/viotti_concerto_22_mvt1/02_hyperion-records-liner.md"}
+      ]
+    },
+    {
+      "piece_id": "kreisler_praeludium_allegro",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://stringsmagazine.com/creativity-and-technique-come-together-in-fritz-kreislers-praeludium-and-allegro/", "path": "sources/kreisler_praeludium_allegro/01_strings-mag-scott-flavin.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://sin80.com/en/work/kreisler-praeludium-allegro", "path": "sources/kreisler_praeludium_allegro/02_sin80-program-note.md"},
+        {"n": "03", "source_type": "blog", "source_url": "https://www.cmuse.org/kreisler-praeludium-and-allegro-difficulty/", "path": "sources/kreisler_praeludium_allegro/03_cmuse-difficulty-guide.md"}
+      ]
+    },
+    {
+      "piece_id": "kreisler_liebesleid",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://thelistenersclub.com/2014/02/12/loves-sorrow-loves-joy/", "path": "sources/kreisler_liebesleid/01_listenersclub-loves-sorrow-joy.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://www.johnmcarthurpiano.com/blogs/recording-reflections/update-links-liebesleid-fritz-kreisler-transcribed-by-sergei-rachmaninoff", "path": "sources/kreisler_liebesleid/02_mcarthur-piano-rachmaninoff-transcription.md"},
+        {"n": "03", "source_type": "dissertation", "source_url": "https://www.mdw.ac.at/magazin/2025/11/28/der-wiener-rhythmus-in-fritz-kreislers-aufnahmen-seines-liebesleid/?lang=en", "path": "sources/kreisler_liebesleid/03_mdw-viennese-rhythm-research.md"}
+      ]
+    },
+    {
+      "piece_id": "kreisler_recitativo_scherzo_caprice",
+      "sources": [
+        {"n": "01", "source_type": "dissertation", "source_url": "https://scholarworks.uni.edu/agss/2018/all/49/", "path": "sources/kreisler_recitativo_scherzo_caprice/01_uni-scholarworks-program-note.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://www.hyperion-records.co.uk/dw.asp?dc=W15157_68040", "path": "sources/kreisler_recitativo_scherzo_caprice/02_hyperion-records-liner.md"},
+        {"n": "03", "source_type": "blog", "source_url": "https://classical-scene.com/2025/04/10/passover-holocaust/", "path": "sources/kreisler_recitativo_scherzo_caprice/03_boston-musical-intelligencer-review.md"}
+      ]
+    },
+    {
+      "piece_id": "massenet_meditation_thais",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://www.ciximusic.com/can-beginner-violinists-learn-meditation-thais", "path": "sources/massenet_meditation_thais/01_cixi-can-beginners-learn.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://operawire.com/thais-meditation-as-interpreted-by-some-of-the-greatest-violinists-in-history/", "path": "sources/massenet_meditation_thais/02_operawire-violinist-interpretations.md"}
+      ]
+    }
+  ],
+  "dropped": [],
+  "notes": [
+    "Whole-work articles used at movement dirs when the article discussed the whole concerto/sonata (piece_id_precision: work).",
+    "Several attempts to fetch violinist.com and reddit URLs returned 403; a few WebFetch attempts returned re-summarized content and were re-issued with a stricter verbatim-only prompt (some, e.g. Strad Bériot, Hyperion, MDW, operawire, thelistenersclub, muswrite, amusicalthought, fugueforthought, sin80, StringsMag Kreisler, cmuse, ciximusic, Kennedy Violins, Broadbent, Boston Musical Intelligencer, mcarthur — returned true verbatim body text and were saved).",
+    "References noted (not saved as piece sources): OUP Blog `blog.oup.com/2018/05/playing-bach-violin/` — general pedagogical article on Baroque violin technique."
+  ]
+}

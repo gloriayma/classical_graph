@@ -1,0 +1,99 @@
+{
+  "batch_id": "batch_E",
+  "pieces": [
+    {
+      "piece_id": "ysaye_sonata6",
+      "sources": [
+        {"n": "01", "source_type": "other", "source_url": "https://www.maramarietta.com/the-arts/music/classical/ysaye/", "path": "sources/ysaye_sonata6/01_maramarietta-griffiths-stowell.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://en.wikipedia.org/wiki/Six_Sonatas_for_solo_violin_(Ysa%C3%BFe)", "path": "sources/ysaye_sonata6/02_wikipedia-six-sonatas.md"},
+        {"n": "03", "source_type": "other", "source_url": "https://stringsmagazine.com/the-ysaye-violin-sonatas-turn-100/", "path": "sources/ysaye_sonata6/03_stringsmag-ysaye-sonatas-100.md"}
+      ]
+    },
+    {
+      "piece_id": "wieniawski_polonaise_1_d_major",
+      "sources": [
+        {"n": "01", "source_type": "other", "source_url": "https://en.wikipedia.org/wiki/Polonaise_de_Concert,_Op._4_(Wieniawski)", "path": "sources/wieniawski_polonaise_1_d_major/01_wikipedia-polonaise-op4.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://interlude.hk/henryk-wieniawskis-dazzling-decade-10-most-electrifying-showstoppers/", "path": "sources/wieniawski_polonaise_1_d_major/02_interlude-polonaise-de-concert-1.md"}
+      ]
+    },
+    {
+      "piece_id": "wieniawski_scherzo_tarantelle",
+      "sources": [
+        {"n": "01", "source_type": "other", "source_url": "https://en.wikipedia.org/wiki/Scherzo_Tarantelle", "path": "sources/wieniawski_scherzo_tarantelle/01_wikipedia-scherzo-tarantelle.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://interlude.hk/henryk-wieniawskis-dazzling-decade-10-most-electrifying-showstoppers/", "path": "sources/wieniawski_scherzo_tarantelle/02_interlude-wieniawski-decade.md"}
+      ]
+    },
+    {
+      "piece_id": "paganini_caprice_1",
+      "sources": [
+        {"n": "01", "source_type": "other", "source_url": "https://en.wikipedia.org/wiki/24_Caprices_for_Solo_Violin_(Paganini)", "path": "sources/paganini_caprice_1/01_wikipedia-24-caprices-entry.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://interlude.hk/niccolo-paganinis-devilish-genius-10-tracks-that-conjure-his-violin-sorcery/", "path": "sources/paganini_caprice_1/02_interlude-devilish-genius.md"}
+      ]
+    },
+    {
+      "piece_id": "paganini_caprice_4",
+      "sources": [
+        {"n": "01", "source_type": "other", "source_url": "https://en.wikipedia.org/wiki/24_Caprices_for_Solo_Violin_(Paganini)", "path": "sources/paganini_caprice_4/01_wikipedia-24-caprices-entry.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://www.classical-music.com/features/works/best-paganini-caprices", "path": "sources/paganini_caprice_4/02_classicalmusic-duenas-caprice4.md"}
+      ]
+    },
+    {
+      "piece_id": "paganini_caprice_5",
+      "sources": [
+        {"n": "01", "source_type": "other", "source_url": "https://en.wikipedia.org/wiki/Caprice_No._5_(Paganini)", "path": "sources/paganini_caprice_5/01_wikipedia-caprice5.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://en.wikipedia.org/wiki/24_Caprices_for_Solo_Violin_(Paganini)", "path": "sources/paganini_caprice_5/02_wikipedia-24-caprices-entry.md"},
+        {"n": "03", "source_type": "other", "source_url": "https://interlude.hk/niccolo-paganinis-devilish-genius-10-tracks-that-conjure-his-violin-sorcery/", "path": "sources/paganini_caprice_5/03_interlude-devilish-genius.md"},
+        {"n": "04", "source_type": "other", "source_url": "https://www.classical-music.com/features/works/best-paganini-caprices", "path": "sources/paganini_caprice_5/04_classicalmusic-duenas-caprice5.md"}
+      ]
+    },
+    {
+      "piece_id": "paganini_caprice_13",
+      "sources": [
+        {"n": "01", "source_type": "other", "source_url": "https://en.wikipedia.org/wiki/24_Caprices_for_Solo_Violin_(Paganini)", "path": "sources/paganini_caprice_13/01_wikipedia-24-caprices-entry.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://interlude.hk/niccolo-paganinis-devilish-genius-10-tracks-that-conjure-his-violin-sorcery/", "path": "sources/paganini_caprice_13/02_interlude-devilish-genius.md"}
+      ]
+    },
+    {
+      "piece_id": "paganini_caprice_17",
+      "sources": [
+        {"n": "01", "source_type": "other", "source_url": "https://en.wikipedia.org/wiki/24_Caprices_for_Solo_Violin_(Paganini)", "path": "sources/paganini_caprice_17/01_wikipedia-24-caprices-entry.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://interlude.hk/niccolo-paganinis-devilish-genius-10-tracks-that-conjure-his-violin-sorcery/", "path": "sources/paganini_caprice_17/02_interlude-devilish-genius.md"}
+      ]
+    },
+    {
+      "piece_id": "paganini_caprice_24",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://natesviolin.com/i-asked-chatgpt-how-to-practice-paganini/", "path": "sources/paganini_caprice_24/01_natesviolin-chatgpt-paganini.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://en.wikipedia.org/wiki/24_Caprices_for_Solo_Violin_(Paganini)", "path": "sources/paganini_caprice_24/02_wikipedia-24-caprices-entry.md"},
+        {"n": "03", "source_type": "other", "source_url": "https://en.wikipedia.org/wiki/Caprice_No._24_(Paganini)", "path": "sources/paganini_caprice_24/03_wikipedia-caprice24.md"},
+        {"n": "04", "source_type": "other", "source_url": "https://interlude.hk/niccolo-paganinis-devilish-genius-10-tracks-that-conjure-his-violin-sorcery/", "path": "sources/paganini_caprice_24/04_interlude-devilish-genius.md"}
+      ]
+    },
+    {
+      "piece_id": "paganini_moto_perpetuo",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://jackbellpercussion.com/performing-paganinis-perpetual-motion/", "path": "sources/paganini_moto_perpetuo/01_jackbell-perpetual-motion.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://interlude.hk/niccolo-paganinis-devilish-genius-10-tracks-that-conjure-his-violin-sorcery/", "path": "sources/paganini_moto_perpetuo/02_interlude-devilish-genius.md"}
+      ]
+    },
+    {
+      "piece_id": "ernst_erlkonig",
+      "sources": [
+        {"n": "01", "source_type": "other", "source_url": "https://www.flyinginkpot.com/1998/05/inkpot53-classical-music-reviews-ernst-music-for-violin-turbanbria-claves/", "path": "sources/ernst_erlkonig/01_flyinginkpot-ernst-review.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://en.wikipedia.org/wiki/Heinrich_Wilhelm_Ernst", "path": "sources/ernst_erlkonig/02_wikipedia-ernst-biography.md"},
+        {"n": "03", "source_type": "other", "source_url": "https://en.wikipedia.org/wiki/Erlk%C3%B6nig_(Schubert)", "path": "sources/ernst_erlkonig/03_wikipedia-erlkonig-ernst-section.md"}
+      ]
+    },
+    {
+      "piece_id": "ernst_last_rose_variations",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://thelistenersclub.com/2013/09/02/the-last-rose-of-summer/", "path": "sources/ernst_last_rose_variations/01_listenersclub-last-rose.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://www.flyinginkpot.com/1998/05/inkpot53-classical-music-reviews-ernst-music-for-violin-turbanbria-claves/", "path": "sources/ernst_last_rose_variations/02_flyinginkpot-ernst-review.md"},
+        {"n": "03", "source_type": "other", "source_url": "https://en.wikipedia.org/wiki/The_Last_Rose_of_Summer", "path": "sources/ernst_last_rose_variations/03_wikipedia-last-rose-mention.md"},
+        {"n": "04", "source_type": "other", "source_url": "https://interlude.hk/hardest-violin-pieces-ever-writtenthe-10-most-technically-demanding-works-in-the-repertoire/", "path": "sources/ernst_last_rose_variations/04_interlude-hardest-violin.md"}
+      ]
+    }
+  ],
+  "dropped": [],
+  "notes": "WebFetch heavily summarizes/refuses copyrighted content; The Strad, violinist.com, tonebase, thomastik-infeld all returned 403 or SPA shells. Wikipedia API via curl (action=parse&prop=wikitext) returned true verbatim wikitext and became the reliable primary channel. Interlude.hk articles were successfully fetched verbatim when prompted per-section. Some Interlude/StringsMag/FlyingInkpot articles returned verbatim; many other blogs (natesviolin, iclassical-academy, thelistenersclub) worked. Reddit blocked as expected — no Reddit URLs attempted."
+}

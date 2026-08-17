@@ -1,0 +1,113 @@
+{
+  "batch_id": "batch_F",
+  "pieces": [
+    {
+      "piece_id": "sarasate_zigeunerweisen",
+      "sources": [
+        {"n": "01", "source_type": "tonebase", "source_url": "https://strings.tonebase.co/online-violin-courses/vln-timothy-chooi-sarasate-zigeunerweisen", "path": "sources/sarasate_zigeunerweisen/01_tonebase-chooi-course.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://rhapsodyinwords.com/tag/zigeunerweisen-gypsy-airs-opus-20/", "path": "sources/sarasate_zigeunerweisen/02_rhapsodyinwords.md"},
+        {"n": "03", "source_type": "other", "source_url": "https://en.wikipedia.org/wiki/Zigeunerweisen", "path": "sources/sarasate_zigeunerweisen/03_wikipedia.md"}
+      ]
+    },
+    {
+      "piece_id": "sarasate_carmen_fantasy",
+      "sources": [
+        {"n": "01", "source_type": "other", "source_url": "https://en.wikipedia.org/wiki/Carmen_Fantasy_(Sarasate)", "path": "sources/sarasate_carmen_fantasy/01_wikipedia.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://muswrite.blogspot.com/2012/05/sarasate-carmen-fantasy.html", "path": "sources/sarasate_carmen_fantasy/02_muswrite-blog.md"},
+        {"n": "03", "source_type": "other", "source_url": "https://www.henle.de/Carmen-Fantasy-op.-25-for-Violin-and-Piano/HN-1244", "path": "sources/sarasate_carmen_fantasy/03_henle-urtext-note.md"}
+      ]
+    },
+    {
+      "piece_id": "sarasate_intro_tarantella",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://sin80.com/en/work/sarasate-introduction-tarantelle", "path": "sources/sarasate_intro_tarantella/01_sin80.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://www.henle.de/en/Introduction-et-Tarentelle-op.-43-for-Violin-and-Piano/HN-1496", "path": "sources/sarasate_intro_tarantella/02_henle-urtext-note.md"}
+      ]
+    },
+    {
+      "piece_id": "franck_sonata_a_major_mvt1",
+      "sources": [
+        {"n": "01", "source_type": "dissertation", "source_url": "https://www.researchcatalogue.net/view/2703490/2703491", "path": "sources/franck_sonata_a_major_mvt1/01_ysaye-annotations-research.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://thelistenersclub.com/2021/01/13/francks-violin-sonata-in-a-major-an-enduring-wedding-gift-con-amore/", "path": "sources/franck_sonata_a_major_mvt1/02_listeners-club.md"},
+        {"n": "03", "source_type": "blog", "source_url": "https://www.parlancechamberconcerts.org/individual-program-notes/c%C3%A9sar-franck-(1822-1890)/violin-sonata-in-a-major,-m.-8", "path": "sources/franck_sonata_a_major_mvt1/03_parlance-program-note.md"},
+        {"n": "04", "source_type": "blog", "source_url": "https://www.laphil.com/musicdb/pieces/3442/sonata-in-a-major-for-violin-and-piano", "path": "sources/franck_sonata_a_major_mvt1/04_la-phil-program-note.md"}
+      ]
+    },
+    {
+      "piece_id": "franck_sonata_a_major_mvt4",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://thelistenersclub.com/2021/01/13/francks-violin-sonata-in-a-major-an-enduring-wedding-gift-con-amore/", "path": "sources/franck_sonata_a_major_mvt4/01_listeners-club.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://www.parlancechamberconcerts.org/individual-program-notes/c%C3%A9sar-franck-(1822-1890)/violin-sonata-in-a-major,-m.-8", "path": "sources/franck_sonata_a_major_mvt4/02_parlance-program-note.md"},
+        {"n": "03", "source_type": "blog", "source_url": "https://www.laphil.com/musicdb/pieces/3442/sonata-in-a-major-for-violin-and-piano", "path": "sources/franck_sonata_a_major_mvt4/03_la-phil-program-note.md"}
+      ]
+    },
+    {
+      "piece_id": "brahms_sonata3_d_minor_mvt1",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://thelistenersclub.com/2024/05/15/brahms-violin-sonata-no-3-in-d-minor-tempestuous-and-dramatic/", "path": "sources/brahms_sonata3_d_minor_mvt1/01_listeners-club.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://www.hyperion-records.co.uk/dw.asp?dc=W444_44331", "path": "sources/brahms_sonata3_d_minor_mvt1/02_hyperion-liner-notes.md"}
+      ]
+    },
+    {
+      "piece_id": "debussy_sonata_mvt1",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://stringsmagazine.com/a-look-back-100-years-later-on-debussys-violin-sonata-the-last-piece-he-wrote-before-his-death/", "path": "sources/debussy_sonata_mvt1/01_strings-magazine-100-years.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://www.hollywoodbowl.com/musicdb/pieces/4593/violin-sonata-in-g-minor", "path": "sources/debussy_sonata_mvt1/02_hollywood-bowl-program-note.md"}
+      ]
+    },
+    {
+      "piece_id": "ravel_tzigane",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://fugueforthought.de/2016/08/04/ravel-tzigane/", "path": "sources/ravel_tzigane/01_fugue-for-thought.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://www.parlancechamberconcerts.org/individual-program-notes/maurice-ravel-(1875-1937)/tzigane,-rapsodie-de-concert", "path": "sources/ravel_tzigane/02_parlance-program-note.md"},
+        {"n": "03", "source_type": "blog", "source_url": "https://lansdowneso.org/ravel-tzigane/", "path": "sources/ravel_tzigane/03_lansdowne-program-note.md"}
+      ]
+    },
+    {
+      "piece_id": "ravel_sonata2_mvt2_blues",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://www.laphil.com/musicdb/pieces/4836/violin-sonata-no-2", "path": "sources/ravel_sonata2_mvt2_blues/01_la-phil-program-note.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://ariellanyi.com/ravels-blues/", "path": "sources/ravel_sonata2_mvt2_blues/02_ariel-lanyi-blog.md"}
+      ]
+    },
+    {
+      "piece_id": "prokofiev_sonata1_f_minor_mvt1",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://thelistenersclub.com/2018/01/22/prokofievs-haunting-first-violin-sonata/", "path": "sources/prokofiev_sonata1_f_minor_mvt1/01_listeners-club.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://www.laphil.com/musicdb/pieces/4596/sonata-no-1-in-f-minor-for-violin-and-piano-op-80", "path": "sources/prokofiev_sonata1_f_minor_mvt1/02_la-phil-program-note.md"}
+      ]
+    },
+    {
+      "piece_id": "prokofiev_concerto2_g_minor_mvt1",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://thelistenersclub.com/2020/04/13/prokofievs-second-violin-concerto-chilly-anxiety-on-the-edge-of-terror/", "path": "sources/prokofiev_concerto2_g_minor_mvt1/01_listeners-club.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://www.laphil.com/musicdb/pieces/4570/violin-concerto-no-2-in-g-minor-op-63", "path": "sources/prokofiev_concerto2_g_minor_mvt1/02_la-phil-program-note.md"}
+      ]
+    },
+    {
+      "piece_id": "bartok_sonata2_mvt1",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://www.parlancechamberconcerts.org/individual-program-notes/b%C3%A9la-bart%C3%B3k-(1881%E2%80%931945)/violin-sonata-no.-2,-bb-85-(sz.-76)", "path": "sources/bartok_sonata2_mvt1/01_parlance-program-note.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://www.hollywoodbowl.com/musicdb/pieces/3526/sonata-no-2-for-violin-and-piano-sz-76", "path": "sources/bartok_sonata2_mvt1/02_hollywood-bowl-program-note.md"},
+        {"n": "03", "source_type": "blog", "source_url": "https://www.westcorkmusic.ie/works/violin-sonata-no-2-sz-76/", "path": "sources/bartok_sonata2_mvt1/03_west-cork-program-note.md"}
+      ]
+    }
+  ],
+  "dropped": [],
+  "notes": {
+    "source_type_failures": [
+      "The Strad — paywalled masterclasses (Franck / Debussy / Ravel Blues / Zigeunerweisen) — WebFetch returned only paywall preview.",
+      "violinist.com discussion threads — HTTP 403 Forbidden on WebFetch (thread 4017 Carmen Fantasy difficulty, thread 3680 Brahms D minor difficulty, archive 18028 Intro & Tarantella, archive 27855 Zigeunerweisen LH pizzicato).",
+      "UNT & FSU & Memphis dissertation PDFs — either CAPTCHA loading page or 403 or raw binary PDF stream not decoded by WebFetch (Sarasate, Tzigane, Bartók solo violin).",
+      "academia.edu Debussy first-movement essay — presumed 403 (not attempted, following prior batches' pattern).",
+      "Reddit — skipped per spec; no Reddit URLs surfaced in top-10 for any piece."
+    ],
+    "cross_movement_reuse": "Franck sources (Listeners' Club, Parlance, LA Phil) discuss the whole sonata and were saved to BOTH mvt1 and mvt4 directories with piece_id_precision: work in front-matter, per the spec's rule for whole-work sources on multi-movement pieces.",
+    "snippet_only_saved": [
+      "sarasate_intro_tarantella/01_sin80.md",
+      "sarasate_intro_tarantella/02_henle-urtext-note.md",
+      "sarasate_carmen_fantasy/03_henle-urtext-note.md",
+      "ravel_tzigane/02_parlance-program-note.md"
+    ]
+  }
+}

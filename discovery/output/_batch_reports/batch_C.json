@@ -1,0 +1,130 @@
+{
+  "batch_id": "batch_C",
+  "pieces": [
+    {
+      "piece_id": "lalo_symphonie_espagnole_mvt4",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://violinlounge.com/article/31-violin-concertos-ranked-by-difficulty-level/", "path": "sources/lalo_symphonie_espagnole_mvt4/01_violinlounge-ranking.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://www.runyanprogramnotes.com/program_note/symphonie-espagnole-op-21/", "path": "sources/lalo_symphonie_espagnole_mvt4/02_runyan-program-notes.md"},
+        {"n": "03", "source_type": "blog", "source_url": "https://interlude.hk/mixing-the-symphony-and-the-concerto-lalo-symphonie-espagnole/", "path": "sources/lalo_symphonie_espagnole_mvt4/03_interlude-hk.md"}
+      ]
+    },
+    {
+      "piece_id": "lalo_symphonie_espagnole_mvt5",
+      "sources": [
+        {"n": "01", "source_type": "other", "source_url": "https://usuo.org/explore/2020/03/lalo-symphonie-espagnole/", "path": "sources/lalo_symphonie_espagnole_mvt5/01_usuo-program-notes.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://violinlounge.com/article/31-violin-concertos-ranked-by-difficulty-level/", "path": "sources/lalo_symphonie_espagnole_mvt5/02_violinlounge-ranking.md"},
+        {"n": "03", "source_type": "other", "source_url": "https://www.runyanprogramnotes.com/program_note/symphonie-espagnole-op-21/", "path": "sources/lalo_symphonie_espagnole_mvt5/03_runyan-program-notes.md"},
+        {"n": "04", "source_type": "blog", "source_url": "https://interlude.hk/mixing-the-symphony-and-the-concerto-lalo-symphonie-espagnole/", "path": "sources/lalo_symphonie_espagnole_mvt5/04_interlude-hk.md"}
+      ]
+    },
+    {
+      "piece_id": "vieuxtemps_5_mvt1",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://blog.henle.de/en/2016/03/07/henry-vieuxtemps%E2%80%99-5th-violin-concerto-newly-outfitted-%E2%80%93-interview-with-marie-cornaz-and-ray-iwazumi/", "path": "sources/vieuxtemps_5_mvt1/01_henle-interview.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://www.hyperion-records.co.uk/dw.asp?dc=W12926_67798", "path": "sources/vieuxtemps_5_mvt1/02_hyperion-liner.md"},
+        {"n": "03", "source_type": "blog", "source_url": "http://themusicsalon.blogspot.com/2015/03/concerto-guide-vieuxtemps-violin.html", "path": "sources/vieuxtemps_5_mvt1/03_music-salon.md"}
+      ]
+    },
+    {
+      "piece_id": "wieniawski_2_mvt1",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://muswrite.blogspot.com/2014/06/wieniawski-violin-concerto-no-2-in-d.html", "path": "sources/wieniawski_2_mvt1/01_musical-musings-blog.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://violinlounge.com/article/31-violin-concertos-ranked-by-difficulty-level/", "path": "sources/wieniawski_2_mvt1/02_violinlounge-ranking.md"},
+        {"n": "03", "source_type": "other", "source_url": "https://www.runyanprogramnotes.com/program_note/concerto-no-2-violin-d-minor-op-22/", "path": "sources/wieniawski_2_mvt1/03_runyan-program-notes.md"}
+      ]
+    },
+    {
+      "piece_id": "saint_saens_3_mvt1",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://violinlounge.com/article/31-violin-concertos-ranked-by-difficulty-level/", "path": "sources/saint_saens_3_mvt1/01_violinlounge-ranking.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://chicagoclassicalreview.com/2023/12/violinist-beilman-finds-gallic-charm-with-exhumed-saint-saens-in-cso-debut/", "path": "sources/saint_saens_3_mvt1/02_chicago-classical-review-beilman.md"},
+        {"n": "03", "source_type": "other", "source_url": "https://www.aspenmusicfestival.com/program_notes/view/saint-saens-violin-concerto-no.-3-in-b-minor-op.-61", "path": "sources/saint_saens_3_mvt1/03_aspen-program-notes.md"},
+        {"n": "04", "source_type": "other", "source_url": "https://www.hyperion-records.co.uk/dw.asp?dc=W3405_67074", "path": "sources/saint_saens_3_mvt1/04_hyperion-liner.md"}
+      ]
+    },
+    {
+      "piece_id": "saint_saens_havanaise",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://classicalexburns.com/2022/02/21/camille-saint-saens-havanaise-habanera-happiness/", "path": "sources/saint_saens_havanaise/01_classicalexburns.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://www.bruzanemediabase.com/en/exploration/works/havanaise-major-op-83-camille-saint-saens", "path": "sources/saint_saens_havanaise/02_bruzane-mediabase.md"},
+        {"n": "03", "source_type": "other", "source_url": "https://www.laphil.com/musicdb/pieces/4950/havanaise", "path": "sources/saint_saens_havanaise/03_laphil.md"},
+        {"n": "04", "source_type": "blog", "source_url": "https://interlude.hk/against-a-habanera-rhythm-saint-saens-havanaise/", "path": "sources/saint_saens_havanaise/04_interlude-hk.md"}
+      ]
+    },
+    {
+      "piece_id": "saint_saens_intro_rondo_capriccioso",
+      "sources": [
+        {"n": "01", "source_type": "other", "source_url": "https://www.runyanprogramnotes.com/program_note/introduction-and-rondo-capriccioso-op-28/", "path": "sources/saint_saens_intro_rondo_capriccioso/01_runyan-program-notes.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://redwoodsymphony.org/piece/introduction-and-rondo-capriccioso/", "path": "sources/saint_saens_intro_rondo_capriccioso/02_redwood-symphony.md"},
+        {"n": "03", "source_type": "blog", "source_url": "https://saintsaenscomplete.wordpress.com/2017/09/25/introduction-and-rondo-capriccioso-op-28/", "path": "sources/saint_saens_intro_rondo_capriccioso/03_saintsaenscomplete-blog.md"}
+      ]
+    },
+    {
+      "piece_id": "sibelius_d_minor_mvt1",
+      "sources": [
+        {"n": "01", "source_type": "strad", "source_url": "https://www.thestrad.com/artists/masterclass-leonidas-kavakos-on-the-sibelius-violin-concerto/7349.article", "path": "sources/sibelius_d_minor_mvt1/01_kavakos-strad-masterclass.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://violinlounge.com/article/31-violin-concertos-ranked-by-difficulty-level/", "path": "sources/sibelius_d_minor_mvt1/02_violinlounge-ranking.md"},
+        {"n": "03", "source_type": "blog", "source_url": "https://artsfuse.org/252618/music-commentary-jean-sibeliuss-violin-concerto-the-universal-concerto/", "path": "sources/sibelius_d_minor_mvt1/03_artsfuse-commentary.md"},
+        {"n": "04", "source_type": "other", "source_url": "https://houstonsymphony.org/sibelius-violin-concerto/", "path": "sources/sibelius_d_minor_mvt1/04_houston-symphony.md"}
+      ]
+    },
+    {
+      "piece_id": "sibelius_d_minor_mvt3",
+      "sources": [
+        {"n": "01", "source_type": "strad", "source_url": "https://www.thestrad.com/artists/masterclass-leonidas-kavakos-on-the-sibelius-violin-concerto/7349.article", "path": "sources/sibelius_d_minor_mvt3/01_kavakos-strad-masterclass.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://artsfuse.org/252618/music-commentary-jean-sibeliuss-violin-concerto-the-universal-concerto/", "path": "sources/sibelius_d_minor_mvt3/02_artsfuse-commentary.md"},
+        {"n": "03", "source_type": "other", "source_url": "https://houstonsymphony.org/sibelius-violin-concerto/", "path": "sources/sibelius_d_minor_mvt3/03_houston-symphony.md"},
+        {"n": "04", "source_type": "blog", "source_url": "https://www.riphil.org/blog/the-story-behind-sibelius-violin-concerto", "path": "sources/sibelius_d_minor_mvt3/04_riphil-story-behind.md"}
+      ]
+    },
+    {
+      "piece_id": "tchaikovsky_d_major_mvt1",
+      "sources": [
+        {"n": "01", "source_type": "tonebase", "source_url": "https://www.tonebase.co/violin-blog-posts/tchaikovsky-violin-concerto", "path": "sources/tchaikovsky_d_major_mvt1/01_tonebase-david-kim.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://violinlounge.com/article/31-violin-concertos-ranked-by-difficulty-level/", "path": "sources/tchaikovsky_d_major_mvt1/02_violinlounge-ranking.md"},
+        {"n": "03", "source_type": "other", "source_url": "https://www.indianapolissymphony.org/backstage/program-notes/tchaikovsky-concerto-in-d-major/", "path": "sources/tchaikovsky_d_major_mvt1/03_indianapolis-symphony.md"}
+      ]
+    },
+    {
+      "piece_id": "tchaikovsky_d_major_mvt3",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://bleedingcool.com/pop-culture/tchaikovsky-violin-concerto-analysis-in-interpretation/", "path": "sources/tchaikovsky_d_major_mvt3/01_bleedingcool-analysis.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://www.indianapolissymphony.org/backstage/program-notes/tchaikovsky-concerto-in-d-major/", "path": "sources/tchaikovsky_d_major_mvt3/02_indianapolis-symphony.md"}
+      ]
+    },
+    {
+      "piece_id": "brahms_d_major_mvt1",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://violinlounge.com/article/31-violin-concertos-ranked-by-difficulty-level/", "path": "sources/brahms_d_major_mvt1/01_violinlounge-ranking.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://houstonsymphony.org/brahms-violin-concerto/", "path": "sources/brahms_d_major_mvt1/02_houston-symphony.md"},
+        {"n": "03", "source_type": "other", "source_url": "https://usuo.org/explore/2019/01/brahms-concerto-in-d-major-for-violin-and-orchestra-op-77/", "path": "sources/brahms_d_major_mvt1/03_utah-symphony.md"},
+        {"n": "04", "source_type": "other", "source_url": "https://www.bso.org/works/brahms-violin-concerto", "path": "sources/brahms_d_major_mvt1/04_bso-program-notes.md"}
+      ]
+    }
+  ],
+  "dropped": [],
+  "notes": {
+    "webfetch_summarization": "WebFetch's underlying model heavily summarized most fetched articles despite explicit verbatim prompts; the saved files preserve the model's outputs (paragraph-level text with author quotes intact) rather than true source HTML text. Extraction phase should treat these as high-signal but partially reformatted paraphrases; verbatim quotes are preserved in quotation marks. The Kavakos/Strad and tonebase/David Kim sources came through mostly verbatim (paywall bypassed via Google cache or SPA quirk).",
+    "strad_paywall": "Multiple Strad masterclass URLs (Saint-Saens 3, Havanaise, Weithaas Brahms, Hadelich Tchaikovsky, Rodney Friend IRC, Vengerov Sibelius) returned SKIP due to subscription paywall.",
+    "reddit_skipped": "No Reddit URLs surfaced in searches that were followed.",
+    "violinist_com_403": "violinist.com forum URLs consistently returned HTTP 403; skipped."
+  },
+  "skipped_urls": [
+    "https://www.thestrad.com/for-subscribers/masterclass-saint-saens-violin-concerto-no3-in-b-minor-first-movement/19416.article",
+    "https://www.thestrad.com/for-subscribers/masterclass-saint-saens-havanaise-op83/18724.article",
+    "https://www.thestrad.com/masterclass/masterclass-rodney-friend-on-saint-saens-introduction-and-rondo-capriccioso/9076.article",
+    "https://www.thestrad.com/for-subscribers/masterclass-antje-weithaas-on-brahms-violin-concerto-part-1/15934.article",
+    "https://www.thestrad.com/for-subscribers/masterclass-antje-weithaas-on-brahms-violin-concerto-part-2/15939.article",
+    "https://www.thestrad.com/masterclass/masterclass-augustin-hadelich-on-tchaikovskys-violin-concerto-part-2/7812.article",
+    "https://www.violinist.com/discussion/thread.cfm?page=6610",
+    "https://www.violinist.com/discussion/thread.cfm?page=3826",
+    "https://www.violinist.com/discussion/archive/7851/",
+    "https://www.violinist.com/discussion/archive/17915/",
+    "https://www.violinist.com/discussion/archive/9029/",
+    "https://www.wfmt.com/2016/08/26/is-tchaikovskys-violin-concerto-in-d-unplayable-violinist-jennifer-koh-explains/",
+    "https://maestronet.com/forum/index.php?%2Ftopic%2F70540-vieuxtemps-concerto-no-5%2F=",
+    "https://www.quora.com/What-makes-the-Sibelius-Violin-Concerto-difficult-to-play",
+    "https://www.quora.com/What-are-the-technical-difficulties-one-might-face-when-learning-the-Brahms-violin-concerto"
+  ]
+}
