@@ -10,9 +10,27 @@ A **killer technique** is one that, if the player lacks it, they *literally cann
 
 - Do **not** build the repertoire graph itself. This is only the taxonomy-discovery pass that precedes it.
 - Do **not** classify pieces by difficulty level.
-- Do **not** consult any pre-existing taxonomy of violin techniques (RCM's, ABRSM's, textbook categorizations, or any prior list from this project). The whole point is bottom-up discovery. Blindness is the design.
-- Do **not** filter or normalize claims to fit a hypothesis. Keep author's original words at extraction time; normalization only happens after clustering.
+- Do **not** let any pre-existing taxonomy shape extraction, canonicalization, or grouping. Blindness is the design. (See "Existing lists" below for what you *can* do with them.)
+- Do **not** filter or normalize claims to fit a hypothesis. Keep author's original words at extraction time.
 - Do **not** touch piano.
+
+## Existing technique lists — reference only, do not overfit
+
+Standard pedagogical references do maintain their own technique taxonomies. Feel free to **note them in `run_log.md`** as a resource for the human reviewer — but do not use them to shape any prompt, category, or label in the pipeline outputs. The whole exercise is worthless if we retrofit the corpus onto Galamian's chapter headings.
+
+Known references worth noting if you encounter them (non-exhaustive):
+- **Simon Fischer** — *Basics* and *The Violin Lesson* (~300 exercises grouped by skill; probably the most granular modern taxonomy).
+- **Ivan Galamian** — *Principles of Violin Playing and Teaching*.
+- **Carl Flesch** — *The Art of Violin Playing* and *Scale System*.
+- **Yehudi Menuhin** — *Violin: Six Lessons with Yehudi Menuhin*.
+- **Leopold Auer** — *Violin Playing as I Teach It*.
+- **Yost** — *Studies in the Art of Violin Playing*.
+- **RCM / ABRSM / Trinity** syllabi — some grades tag technique requirements.
+
+Rules of engagement:
+- If you happen upon one of these while scraping, log the URL + one-sentence note in `run_log.md` under a "References noted" heading. Do not extract claims from these into `claims.jsonl` — they'd contaminate the corpus with authoritative jargon.
+- Do NOT paste their category names into any prompt.
+- Do NOT compare the discovered taxonomy against them yourself. That's a human step downstream.
 
 ## Deliverables (write to `discovery/output/`)
 
