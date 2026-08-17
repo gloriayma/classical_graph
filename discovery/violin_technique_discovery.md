@@ -253,6 +253,16 @@ If no qualifying claims exist in the text, output: []
 
 Use the Anthropic batch API. Sources longer than ~30K tokens: chunk by paragraph before submitting. Expect ~1–2 minutes wall time per batch; batch API costs ~50% of streaming.
 
+### Pipeline the phases — do not serialize
+
+Extraction is per-source, so start extracting the moment a piece's sources are on disk — don't wait for the whole corpus to finish scraping. Practical shape:
+
+- Scraper walks the piece list. As each piece's sources land, drop them in a queue.
+- A separate worker pulls from the queue and submits batch-API extraction jobs.
+- Batch results append to `claims.jsonl` as they return.
+
+For the POC (12 pieces) this doesn't matter much. For the full corpus (~265 pieces × ~10 sources) serializing scrape→extract wastes hours; pipelining brings the wall time down to whichever phase is slower (scraping, usually).
+
 ### Post-processing
 
 Concatenate all extractions into `claims.jsonl`, one JSON object per line. Assign each claim a stable `claim_id` (hash of `piece_id + verbatim_phrase + source_url`). Deduplicate exact `verbatim_phrase` collisions within a single source (but keep across sources — those are corroboration).

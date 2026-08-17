@@ -2,6 +2,33 @@
 
 **Purpose:** the corpus of pieces for (a) the discovery pipeline in `violin_technique_discovery.md` and (b) the eventual repertoire graph. One list serves both.
 
+## Proof of concept subset — START HERE
+
+Run the full pipeline on these **12 movements first**. Smallest set that still stresses every part of the pipeline: diverse techniques, overlap between pieces to validate canonicalization, and enough source volume per piece to exercise the attribution logic. Estimated extraction cost: ~$1–2.
+
+- [x] Bach Concerto in A minor BWV 1041 — mvt I *(baseline intermediate)*
+- [x] Mozart Violin Concerto no. 3 K.216 — mvt I *(Classical style anchor)*
+- [x] Bruch Violin Concerto no. 1 in G minor — mvt I ⚡ *(DeLay Group 1)*
+- [x] Mendelssohn Violin Concerto in E minor — mvt I ⚡ *(spiccato + high positions)*
+- [x] Tchaikovsky Violin Concerto — mvt I ⚡ *(Group 2, endurance, double stops)*
+- [x] Bach Ciaccona from Partita 2 in D minor ⚡ *(chords, polyphony — most-discussed movement)*
+- [x] Bach Fuga from Sonata 1 in G minor *(polyphonic voicing, distinct from Ciaccona)*
+- [x] Paganini Caprice no. 24 ⚡ *(widest technique surface in a single piece)*
+- [x] Paganini Caprice no. 5 ⚡ *(extreme finger velocity, arpeggios)*
+- [x] Ysaÿe Sonata no. 3 in D minor "Ballade" ⚡ *(20thC idiom, distinct signal)*
+- [x] Kreutzer no. 2 *(foundational étude — tests bridge-node behavior)*
+- [x] Sarasate Zigeunerweisen ⚡ *(harmonics, LH pizz, sautillé — showpiece surface)*
+
+**Coverage check:** positions 1→above 7th; thirds/sixths/octaves/fingered octaves/tenths; 3- and 4-note chords; spiccato/sautillé/ricochet/up-bow staccato; natural + artificial harmonics; LH pizz; polyphony; extreme finger velocity; endurance.
+
+**Deliberately skipped for POC:** sonatas with piano (chamber noise), 20thC concertos (thinner online signal at this scale), position-mastery gradations below 5th (all 12 assume ≥3rd position competence).
+
+After POC results are reviewed, expand to the full list below.
+
+---
+
+## Full list
+
 **Selection criterion:** maximize source density per edge. Pieces on this list are included because they have rich online discussion — masterclasses, threads, blog posts, dissertations. If any piece yields fewer than 3 usable sources during scraping, drop it and log why.
 
 **⚡ = TwoSet Violin covers this a lot** — bonus signal from their videos and comments. Some entries are on the list *because* of TwoSet coverage even though they'd otherwise be borderline.
