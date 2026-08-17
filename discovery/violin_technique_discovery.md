@@ -19,10 +19,16 @@ A **killer technique** is one that, if the player lacks it, they *literally cann
 1. `corpus.json` — the piece list you actually collected sources for, with per-piece source URLs.
 2. `sources/{piece_id}/{source_index}.md` — cached scraped text per source (so this is auditable and re-runnable).
 3. `claims.jsonl` — one line per atomic claim.
-4. `embeddings.parquet` — claim embeddings, keyed to claim IDs.
-5. `clusters.json` — cluster assignments, exemplars per cluster, and LLM-labeled cluster names.
-6. `taxonomy_draft.md` — human-readable summary: one section per cluster, exemplar quotes, size, and the label. This is what a human will actually read.
-7. `run_log.md` — brief log of what you scraped, what failed, what you skipped and why.
+4. `claims_sorted.csv` — the same claims sorted alphabetically by `verbatim_phrase`, for human browsing.
+5. `run_log.md` — brief log of what you scraped, what failed, what you skipped and why.
+
+**Stop after producing (1)–(5) and post a summary. Do not proceed to any grouping / taxonomy step without explicit go-ahead** — a human will look at `claims_sorted.csv` first and decide whether the follow-up automation described in Phase 3 is worth running.
+
+If given the green light, additionally produce:
+
+6. `canonical.jsonl` — one line per claim, adding a short LLM-generated canonical label (see Phase 3).
+7. `groups.md` — canonical labels grouped, each showing member claims with source links.
+8. `taxonomy_draft.md` — a proposed taxonomy synthesized from the groups, with full source attribution on every entry.
 
 ## Phase 1 — Corpus assembly
 
@@ -235,120 +241,149 @@ Concatenate all extractions into `claims.jsonl`, one JSON object per line. Assig
 
 Expected volume: ~1500–4000 claims total from ~100 pieces × 5–15 sources each.
 
-## Phase 3 — Cluster and label
+### Human check-in gate
 
-### Embedding
+**After Phase 2, stop.** Post a summary and wait for go-ahead before running Phase 3.
 
-Embed the `verbatim_phrase` field (not the quote — the quote has piece-specific noise). Recommended models, in order of preference:
+The summary should include:
+- Piece / source / claim counts
+- 20 randomly sampled claims (for spot-checking extraction quality)
+- The 30 most common `verbatim_phrase` strings (exact-string counts)
+- Anything surprising you noticed
 
-1. **Voyage `voyage-3-lite`** — cheap, good for short technical phrases.
-2. **OpenAI `text-embedding-3-small`** — fine, well-documented.
-3. **`sentence-transformers/all-MiniLM-L6-v2`** — free, local, adequate for this scale.
+Why this gate exists: the raw claim list may already be browsable enough that Phase 3 automation is unnecessary. If ~200 distinct canonical techniques cover the corpus, a human can taxonomize by reading `claims_sorted.csv` directly. Only run Phase 3 if a human confirms the volume/messiness warrants it.
 
-Save to `embeddings.parquet` with columns `claim_id, embedding, verbatim_phrase, piece_id`.
+**Do not run Phase 3 automatically.** Wait for explicit approval.
 
-### Clustering
+## Phase 3 — LLM canonicalization and grouping *(only if approved)*
 
-Use **HDBSCAN** (Python `hdbscan` package). Parameters to try:
+Do **not** use embeddings + clustering. General-purpose embeddings collapse exactly the fine-grained distinctions we care about (thirds vs sixths vs octaves; spiccato vs sautillé vs ricochet; natural vs artificial harmonics). We want an LLM that actually knows those distinctions to do the canonicalization.
 
-- `min_cluster_size=5` (a cluster of 5+ distinct claims is meaningful)
-- `min_samples=3`
-- `metric='euclidean'` on L2-normalized embeddings (equivalent to cosine)
+### Step 3a — Canonicalize each claim
 
-Alternative if HDBSCAN gives too much noise (label = -1): try Agglomerative with distance threshold ~0.35 on normalized cosine distance.
-
-**Do not force a target `k`.** The whole point is to let natural structure emerge.
-
-Save `clusters.json`:
-
-```json
-{
-  "clusters": [
-    {
-      "cluster_id": 0,
-      "size": 47,
-      "n_distinct_pieces": 22,
-      "exemplars": [
-        {"claim_id": "...", "verbatim_phrase": "...", "quote": "...", "piece_id": "...", "source_url": "..."}
-      ],
-      "all_claim_ids": ["..."]
-    }
-  ],
-  "noise": ["<claim_ids of unclustered claims>"]
-}
-```
-
-Exemplars: top ~20 by centrality (nearest to the cluster centroid).
-
-### Cluster labeling
-
-For each cluster, ask Claude Sonnet to write a short label. **The prompt shows only that cluster's exemplars — no other clusters, no prior taxonomy, no reference list.**
+For each claim in `claims.jsonl`, prompt Claude Haiku 4.5 (batch API) to produce a short canonical label. **Blinding still applies: the prompt shows no reference taxonomy.**
 
 ```
-Below are ~20 examples of things violinists said about specific technical
-challenges in specific pieces. All examples come from ONE cluster — they
-were grouped together because they seem to describe the same underlying
-skill or demand.
+You are reading one claim about a specific technical challenge on the
+violin, in the author's own words.
 
-Your task: write a short label (2–6 words) that names this skill in the
-most neutral, descriptive terms possible. Do NOT invent jargon; use plain
-descriptive English. Also write a 1-sentence description of what
-distinguishes this skill.
+Task: produce a short canonical label (2–6 words) that names the SPECIFIC
+skill or demand being described. Preserve fine-grained distinctions — if
+the author says "thirds," do not generalize to "double stops." If the
+author says "sautillé," do not generalize to "off-string bowing." Use the
+author's terminology if it is already specific; otherwise the most
+neutral, physically descriptive short phrase.
 
-If the examples do NOT actually cohere — if they seem to describe
-different things — say so explicitly.
+Do NOT consult any predefined taxonomy. Do NOT invent standardized
+category names. Do NOT collapse distinct techniques into umbrella terms.
 
-Examples:
-{exemplars}
+Claim: {verbatim_phrase}
+Quote (for context): {quote}
+
+Output JSON:
+{ "canonical_label": "..." }
+```
+
+Append `canonical_label` to each claim, write to `canonical.jsonl`.
+
+### Step 3b — Group by canonical label
+
+Group claims by exact canonical label match, then run one lightweight LLM merge pass over the label list only (not the underlying claims): given the sorted list of unique labels, propose merges of near-synonyms (`"LH pizzicato"` + `"left hand pizzicato"` + `"plucking with the left hand"` → one group), but **preserve any label that names a distinct technique**. Ask the LLM to err on splitting: when in doubt, keep them separate.
+
+Prompt for the merge pass:
+
+```
+Below is an alphabetized list of short labels naming violin techniques.
+Some are exact synonyms of each other and should be merged. Others are
+distinct techniques and MUST be kept separate — err heavily toward
+splitting.
+
+Rules:
+- MERGE only when two labels clearly name the same physical skill in
+  different words (e.g. "LH pizzicato" and "left-hand pizz").
+- DO NOT merge across granularity levels. "Thirds" and "sixths" are
+  different techniques. "Spiccato" and "sautillé" are different
+  techniques. "Natural harmonics" and "artificial harmonics" are
+  different techniques. Keep them separate.
+- If unsure, do NOT merge.
+
+Labels:
+{sorted_unique_labels}
 
 Output JSON:
 {
-  "label": "...",
-  "description": "...",
-  "coherent": true | false,
-  "notes": "<optional, any observations>"
+  "merges": [
+    { "canonical": "...", "aliases": ["...", "..."] }
+  ]
 }
 ```
 
-### Final human-readable output
+Apply the merges to produce final grouping.
 
-Write `taxonomy_draft.md` structured as:
+### Step 3c — Write `groups.md`
+
+For each group, list the canonical label, the number of claims, the number of distinct pieces mentioning it, and the exemplar claims (up to 20) with clickable source URLs. Sort groups by number of distinct pieces (descending) — a technique that's mentioned across many pieces is more foundational than one that appears in one virtuoso showpiece.
+
+Structure:
 
 ```markdown
-# Violin Technique Taxonomy — Discovery Draft
+### <canonical label> (34 claims across 18 pieces)
 
-Generated: <date>
-Pieces analyzed: <n>
-Sources: <n>
-Total claims extracted: <n>
-Clusters found: <n>
-Noise / unclustered: <n>
+Aliases: "<alias 1>", "<alias 2>"
 
-## Clusters (ordered by size)
-
-### Cluster 0 — <label> (size: 47, across 22 pieces)
-
-<description>
-
-**Exemplar quotes:**
+**Claims:**
 - "<verbatim quote>" — {piece_id} ({source_type}, [link]({source_url}))
-
-**Pieces mentioned:** bruch_g_minor_mvt1, mendelssohn_e_minor_mvt3, ...
+- ...
 ```
 
-The doc must let a reader **click any exemplar's source URL** and read the original — full attribution, no aggregation.
+### Step 3d — Propose `taxonomy_draft.md`
+
+Final synthesis pass with Claude Sonnet, shown *only* the canonical label list + per-label piece counts (NOT the underlying claims — those would leak external terminology into structural thinking). Ask Sonnet to propose a natural grouping of the labels into higher-level categories, but keep every canonical label as a leaf. **Do not collapse leaves.**
+
+Prompt:
+
+```
+Below is a list of specific violin techniques that emerged from analyzing
+public discussion of ~100 pieces. Each label appears with the number of
+distinct pieces where it was mentioned as a gate-keeping technical
+challenge.
+
+Task: propose a natural higher-level grouping (2–6 groups) that a
+practicing violinist would find useful. Every individual label must
+appear as a LEAF under exactly one group — do not merge or drop leaves.
+Groups are for navigation only.
+
+Do not invent standardized category names from any pedagogical
+reference; describe each group in plain physical terms.
+
+Labels (with counts):
+{labels_with_counts}
+
+Output as markdown.
+```
+
+Save the result as `taxonomy_draft.md`, prefixed with corpus stats and a link back to `groups.md` for source-level detail.
 
 ## Cost budget
 
 Rough estimates. Stop and check in if you're going to exceed 3× these.
 
+**Phases 1–2 (always run):**
+
 | Item | Estimate |
 |---|---|
 | Scraping (no LLM cost, just runtime) | 4–8 hours |
 | Extraction (Haiku 4.5, batch API, ~2M input tokens) | $3–10 |
-| Embeddings (~3K claims × ~30 tokens, Voyage or OpenAI) | <$1 |
-| Cluster labeling (Sonnet, ~50 clusters × ~3K tokens) | ~$1 |
-| **Total** | **~$5–15** |
+| **Subtotal** | **~$3–10** |
+
+**Phase 3 (only if approved after check-in):**
+
+| Item | Estimate |
+|---|---|
+| Canonicalization (Haiku, batch, ~3K claims) | ~$1 |
+| Label merge pass (Sonnet, single call) | <$1 |
+| Taxonomy synthesis (Sonnet, single call) | <$1 |
+| **Subtotal** | **~$2** |
 
 ## Guardrails / gotchas
 
@@ -362,17 +397,32 @@ Rough estimates. Stop and check in if you're going to exceed 3× these.
 
 ## Success criteria
 
+**End of Phase 2 (mandatory stop):**
 - ≥80 pieces made it into `claims.jsonl` with ≥3 claims each.
-- ≥30 distinct clusters emerge (loose lower bound; adjust if HDBSCAN gives fewer legitimate clusters).
-- `taxonomy_draft.md` is readable end-to-end and every claim links back to a real source URL.
-- No cluster label references a technique-taxonomy source (RCM, ABRSM, textbooks, previous notes). All labels come from what the corpus actually said.
+- `claims_sorted.csv` is human-browsable.
+- No claim references a technique-taxonomy source (RCM, ABRSM, textbooks). Every claim is grounded in a corpus quote with a real source URL.
+
+**End of Phase 3 (only if approved):**
+- Every canonical label preserves fine-grained distinctions (thirds ≠ sixths; spiccato ≠ sautillé; natural harmonics ≠ artificial harmonics; perfect octaves ≠ fingered octaves). If you see these collapsed anywhere in `groups.md`, Phase 3 has failed — fix it before proceeding.
+- Every entry in `groups.md` and `taxonomy_draft.md` has clickable source URLs — no aggregation without attribution.
+- No label or category name is imported from a standard pedagogical reference.
 
 ## When you're done
 
-Post a short summary as the final message:
-- Number of pieces, sources, claims, clusters, noise fraction.
-- 3–5 clusters that surprised you (that felt like real discoveries).
-- 3–5 clusters that felt noisy / incoherent (candidates to inspect further).
-- Cost actually spent.
+**After Phase 2**, post a summary and stop:
+- Number of pieces, sources, claims.
+- 20 randomly sampled claims (spot-check).
+- Top 30 exact-string `verbatim_phrase` counts.
+- 3–5 things that surprised you during extraction (candidate discoveries).
+- 3–5 sources or pieces that gave low-quality signal (candidates to drop).
+- Cost actually spent so far.
+
+Wait for explicit approval before running Phase 3.
+
+**After Phase 3 (if approved)**, post:
+- Number of canonical labels and groups.
+- 3–5 labels that felt like real discoveries.
+- 3–5 places where the merge pass felt suspect (candidates for a human to review).
+- Total cost spent.
 
 Do not attempt to compare against any prior technique list. That's the next step and belongs to a human reviewer.
