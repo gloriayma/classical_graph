@@ -1,0 +1,65 @@
+{
+  "batch_id": "general",
+  "description": "5 orthogonal general queries, cached under sources/_general/",
+  "queries": [
+    {
+      "query": "hardest techniques on violin",
+      "sources": [
+        {"n": "01", "source_type": "strad", "source_url": "https://www.thestrad.com/playing-hub/aaron-rosand-on-how-to-produce-a-beautiful-tone/264.article", "path": "sources/_general/01_rosand-beautiful-tone.md"},
+        {"n": "02", "source_type": "strad", "source_url": "https://www.thestrad.com/playing-hub/7-ways-to-improve-your-tone/170.article", "path": "sources/_general/02_strad-7-ways-improve-tone.md"}
+      ]
+    },
+    {
+      "query": "what separates good violinists from great",
+      "sources": [
+        {"n": "03", "source_type": "strad", "source_url": "https://www.thestrad.com/playing-hub/how-can-violinists-create-a-personal-sound/2863.article", "path": "sources/_general/03_strad-personal-sound-duchen.md"},
+        {"n": "04", "source_type": "strad", "source_url": "https://www.thestrad.com/artists/remembering-the-great-violinist-david-oistrakh/4547.article", "path": "sources/_general/04_strad-oistrakh-remembered.md"}
+      ]
+    },
+    {
+      "query": "what teachers wish students had learned before advanced repertoire",
+      "sources": [
+        {"n": "05", "source_type": "strad", "source_url": "https://www.thestrad.com/student-hub/11-views-on-teaching-by-juilliard-school-violin-professor-dorothy-delay/28.article", "path": "sources/_general/05_strad-delay-11-views.md"},
+        {"n": "06", "source_type": "strad", "source_url": "https://www.thestrad.com/student-hub/learning-a-violin-as-an-adult-how-do-you-progress-beyond-practising-for-exams/508.article", "path": "sources/_general/06_strad-adult-grade8-dilemma.md"},
+        {"n": "07", "source_type": "blog", "source_url": "https://meadowlarkviolin.com/violinblog/when-should-i-learn-vibrato", "path": "sources/_general/07_meadowlark-vibrato-prerequisites.md"}
+      ]
+    },
+    {
+      "query": "most difficult violin techniques",
+      "sources": [
+        {"n": "08", "source_type": "blog", "source_url": "https://www.lvlmusicacademy.com/bowing-techniques-violinists/", "path": "sources/_general/08_lvl-bowing-techniques.md"},
+        {"n": "09", "source_type": "blog", "source_url": "https://heatherkayeviolin.com/how-to-improve-your-violin-shifting/", "path": "sources/_general/09_heather-kaye-shifting.md"}
+      ]
+    },
+    {
+      "query": "things violinists cannot fake",
+      "sources": [
+        {"n": "10", "source_type": "other", "source_url": "https://stringsmagazine.com/rethinking-your-approach-to-intonation-on-violin/", "path": "sources/_general/10_stringsmag-rethinking-intonation.md"},
+        {"n": "11", "source_type": "strad", "source_url": "https://www.thestrad.com/student-hub/fake-it-til-you-make-it-the-art-of-orchestral-faking/14494.article", "path": "sources/_general/11_strad-orchestral-faking.md"}
+      ]
+    }
+  ],
+  "skipped_urls": [
+    {"url": "https://www.quora.com/What-is-the-hardest-violin-technique-to-master", "reason": "Quora returns 403 on WebFetch"},
+    {"url": "https://www.quora.com/What-distinguishes-a-great-violinist-from-a-good-one", "reason": "Quora returns 403 on WebFetch"},
+    {"url": "https://www.violinist.com/blog/weekendvote/200910/10524/", "reason": "violinist.com 403 (already logged)"},
+    {"url": "https://www.violinist.com/discussion/archive/28139/", "reason": "violinist.com 403 (already logged)"},
+    {"url": "https://www.violinist.com/blog/laurie/20213/28678/", "reason": "violinist.com 403 (already logged)"},
+    {"url": "https://www.violinist.com/blog/ncole78/20225/29235/", "reason": "violinist.com 403 (already logged)"}
+  ],
+  "not_saved_summarized": [
+    {"url": "https://www.violinlounge.com/blog/7-hardest-violin-pieces-of-all-times", "reason": "WebFetch returned resummarized bullet list instead of verbatim body"},
+    {"url": "https://violinspiration.com/hardest-violin-piece/", "reason": "WebFetch returned resummarized paraphrase"},
+    {"url": "https://violinlab.com/what-impacts-violin-tone-a-look-at-tone-production-for-violinists/", "reason": "WebFetch returned bulleted summary"},
+    {"url": "https://www.timusic.net/debreved/bowing/", "reason": "WebFetch returned resummarized paraphrase"},
+    {"url": "https://violinspiration.com/up-bow-staccato/", "reason": "WebFetch returned resummarized paraphrase"},
+    {"url": "https://muijonathan.com/2017/07/21/composers-notebook-6/", "reason": "WebFetch returned resummarized paraphrase"},
+    {"url": "https://www.elbowmusic.org/post/2016/04/05/20-great-violinists", "reason": "WebFetch returned SKIP — no per-technique instructional content"},
+    {"url": "https://violesson.com/mastering-fingered-octaves/", "reason": "WebFetch returned SKIP"}
+  ],
+  "references_noted": [
+    {"url": "https://en.wikiquote.org/wiki/Musical_phrasing", "reason": "Anthology of pedagogical quotes (Auer, Matthay, Tartini, etc.) — reference taxonomy per spec"},
+    {"url": "https://www.thestrad.com/playing-hub/pedagogues-top-studies-etude-of-choice/13310.article", "reason": "Pedagogues discuss Kreutzer/Paganini/Popper/Ševčík/Simandl etudes — reference taxonomy per spec, not saved"},
+    {"url": "https://www.theviolinsite.com/lessons/fingered-octaves.html", "reason": "Explicitly 'based on the Yost System' — reference taxonomy per spec"}
+  ]
+}

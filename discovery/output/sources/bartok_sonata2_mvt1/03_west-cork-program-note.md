@@ -1,0 +1,15 @@
+---
+piece_id: bartok_sonata2_mvt1
+source_type: blog
+source_url: https://www.westcorkmusic.ie/works/violin-sonata-no-2-sz-76/
+scraped_at: 2026-08-16
+title: Violin Sonata No. 2 Sz. 76 — program note
+author: West Cork Music
+piece_id_precision: work
+---
+
+Brilliant violinists inevitably play a crucial part in many composers' lives, perhaps most famously in the long and fruitful collaboration between Brahms and Joachim. There were three important violinists in Bartók's career, Joseph Szigeti for whom he wrote the two Rhapsodies and Contrasts, Yehudi Menuhin for whom he wrote the solo sonata and the beautiful Jelly Arányi, for whom the two duo sonatas were written. Jelly was a charismatic and popular Hungarian violinist with influential contacts in Britain, who had known Bartók since their student days together. She suggested that he write a work for her and Bartók quickly saw that a recital tour with her would be an ideal way to improve his standing in Europe. And he was far from immune to the prospect of travelling and performing with such an enticing companion.
+
+Bach in his Cello Suites borrows the dance forms of his time to create the formal outline of his work. Bartók in turn builds his Sonata around a folk-derived motto played by the violin in almost the first bars. This motto is inspired by the dreamy style of the Romanian hora lungă and it recurs as a motif throughout the piece before being transformed in the final bars from its improvisatory folk origins into a regular strophic melody. Bartók was of course an ethnomusicologist of renown, spending much of his time researching and collecting folk music and dances both in the field and in libraries. His work was both a rescue operation and discovery of ethnic music on the verge of extinction as well as an enrichment of his own work through his extraordinary assimilation of the atmosphere of the music of the Hungarian hinterland. Here also was another attraction of the violin as the fiddle was a recognised folk instrument and it could be used to reflect the reality of village performances, especially in the wilder reaches of the second movement of this Sonata.
+
+Another remarkable feature of this Sonata is that the two instruments hardly ever share any thematic material, Bartók goes out of his way to keep their two worlds apart. On the whole the violin part is dominated by long legato phrases and the piano part by chord progressions and the percussive gestures that are so typical of Bartók, though the reality is a lot more complex. The first movement is punctuated by returns of the Romanian theme in a series of radical transformations that nonetheless retain the tenderness of the original. The frenzied second movement begins with some savage violin pizzicatos that build up the tension before the wild gypsy fiddling takes over and we are overwhelmed by a stunning acrobatic demonstration by both instruments. The display closes with a last appearance of the Romanian theme in its final aery incarnation.

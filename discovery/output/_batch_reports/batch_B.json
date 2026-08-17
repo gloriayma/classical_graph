@@ -1,0 +1,110 @@
+{
+  "batch_id": "batch_B",
+  "pieces": [
+    {
+      "piece_id": "wieniawski_legende",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://catthecynic.wixsite.com/catsmusicalmusings/post/wieniawski-s-legende-ary-love", "path": "sources/wieniawski_legende/01_catsmusicalmusings-legende.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://musichistoryfsu.wordpress.com/2015/03/07/henryk-wieniawski-1835-1880-and-legende/", "path": "sources/wieniawski_legende/02_musichistoryfsu-legende.md"},
+        {"n": "03", "source_type": "blog", "source_url": "https://muswrite.blogspot.com/2014/07/wieniawski-legende-for-violin-and.html", "path": "sources/wieniawski_legende/03_muswrite-legende.md"}
+      ]
+    },
+    {
+      "piece_id": "mozart_k216_mvt1",
+      "sources": [
+        {"n": "01", "source_type": "strad", "source_url": "https://www.thestrad.com/playing-hub/keep-it-simple-stupid-recording-mozart-violin-concertos-the-historically-informed-way/13547.article", "path": "sources/mozart_k216_mvt1/01_strad-dego-norrington-kiss.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://www.violinwiki.org/wiki/Violin_Concerto_No._3_in_G_major,_KV_216,_1st_Movement_(Mozart,_Wolfgang_Amadeus)", "path": "sources/mozart_k216_mvt1/02_violinwiki-mozart-k216-mvt1.md"},
+        {"n": "03", "source_type": "blog", "source_url": "https://fugueforthought.de/2018/12/21/mozart-violin-concerto-no-3-in-g-k-216/", "path": "sources/mozart_k216_mvt1/03_fugueforthought-k216.md"}
+      ]
+    },
+    {
+      "piece_id": "mozart_k216_mvt3",
+      "sources": [
+        {"n": "01", "source_type": "other", "source_url": "https://www.violinwiki.org/wiki/Violin_Concerto_No._3_in_G_major,_KV_216,_3rd_Movement_(Mozart,_Wolfgang_Amadeus)", "path": "sources/mozart_k216_mvt3/01_violinwiki-mozart-k216-mvt3.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://fugueforthought.de/2018/12/21/mozart-violin-concerto-no-3-in-g-k-216/", "path": "sources/mozart_k216_mvt3/02_fugueforthought-k216.md"}
+      ]
+    },
+    {
+      "piece_id": "mozart_k218_mvt1",
+      "sources": [
+        {"n": "01", "source_type": "strad", "source_url": "https://www.thestrad.com/playing-hub/keep-it-simple-stupid-recording-mozart-violin-concertos-the-historically-informed-way/13547.article", "path": "sources/mozart_k218_mvt1/01_strad-dego-norrington-kiss.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://www.violinwiki.org/wiki/Violin_Concerto_No._4_in_D_major,_KV_218,_1st_Movement_(Mozart,_Wolfgang_Amadeus)", "path": "sources/mozart_k218_mvt1/02_violinwiki-mozart-k218-mvt1.md"},
+        {"n": "03", "source_type": "blog", "source_url": "https://fugueforthought.de/2019/02/19/mozart-violin-concerto-no-4-in-d-k-218/", "path": "sources/mozart_k218_mvt1/03_fugueforthought-k218.md"}
+      ]
+    },
+    {
+      "piece_id": "mozart_k219_mvt1",
+      "sources": [
+        {"n": "01", "source_type": "other", "source_url": "https://www.violinwiki.org/wiki/Violin_Concerto_No._5_in_A_major,_KV_219,_1st_Movement_(Mozart,_Wolfgang_Amadeus)", "path": "sources/mozart_k219_mvt1/01_violinwiki-mozart-k219-mvt1.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://fugueforthought.de/2019/02/21/mozart-violin-concerto-no-5-in-a-k-219-turkish/", "path": "sources/mozart_k219_mvt1/02_fugueforthought-k219.md"}
+      ]
+    },
+    {
+      "piece_id": "haydn_c_major_hobviia1_mvt1",
+      "sources": [
+        {"n": "01", "source_type": "other", "source_url": "https://www.violinwiki.org/wiki/Violin_Concerto_No._1_in_C_major,_Hob._VIIa:1,_1st_Movement_(Haydn,_Franz_Joseph)", "path": "sources/haydn_c_major_hobviia1_mvt1/01_violinwiki-haydn-c-mvt1.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://www.riphil.org/the-story-behind-haydn-s-violin-concerto-in-c-major", "path": "sources/haydn_c_major_hobviia1_mvt1/02_riphil-story-behind-haydn-c.md"},
+        {"n": "03", "source_type": "other", "source_url": "https://www.hollywoodbowl.com/musicdb/pieces/4532/violin-concerto-in-c", "path": "sources/haydn_c_major_hobviia1_mvt1/03_laphil-hollywood-bowl.md"}
+      ]
+    },
+    {
+      "piece_id": "bruch_g_minor_mvt1",
+      "sources": [
+        {"n": "01", "source_type": "strad", "source_url": "https://www.thestrad.com/playing-hub/form-revealed-bruchs-violin-concerto-and-the-discipline-of-fire/20942.article", "path": "sources/bruch_g_minor_mvt1/01_strad-form-revealed.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://stringsmagazine.com/mastering-the-irregular-rhythmic-passages-in-the-first-movement-of-the-bruch-violin-concerto-no-1-in-g-minor/", "path": "sources/bruch_g_minor_mvt1/02_stringsmag-9tips-rhythmic-passages.md"},
+        {"n": "03", "source_type": "other", "source_url": "https://feargushetherington.com/repertoire/direct-from-the-violin/bruch-violin-concerto-no1-op26/programme-note/", "path": "sources/bruch_g_minor_mvt1/03_hetherington-bruch-programme.md"}
+      ]
+    },
+    {
+      "piece_id": "bruch_g_minor_mvt2",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://thelistenersclub.com/2024/08/28/max-bruchs-violin-concerto-no-1-in-g-minor-rich-and-seductive/", "path": "sources/bruch_g_minor_mvt2/01_listenersclub-rich-seductive.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://feargushetherington.com/repertoire/direct-from-the-violin/bruch-violin-concerto-no1-op26/programme-note/", "path": "sources/bruch_g_minor_mvt2/02_hetherington-bruch-programme.md"}
+      ]
+    },
+    {
+      "piece_id": "bruch_g_minor_mvt3",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://thelistenersclub.com/2024/08/28/max-bruchs-violin-concerto-no-1-in-g-minor-rich-and-seductive/", "path": "sources/bruch_g_minor_mvt3/01_listenersclub-rich-seductive.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://www.hkphil.org/watch-and-listen/concertos/bruch-or-violin-concerto-no-1", "path": "sources/bruch_g_minor_mvt3/02_hkphil-bruch-op26.md"},
+        {"n": "03", "source_type": "other", "source_url": "https://feargushetherington.com/repertoire/direct-from-the-violin/bruch-violin-concerto-no1-op26/programme-note/", "path": "sources/bruch_g_minor_mvt3/03_hetherington-bruch-programme.md"}
+      ]
+    },
+    {
+      "piece_id": "mendelssohn_e_minor_mvt1",
+      "sources": [
+        {"n": "01", "source_type": "other", "source_url": "https://www.violinwiki.org/wiki/Violin_Concerto_No._2_in_E_minor,_Op._64,_MWV_O_14,_1st_Movement_(Mendelssohn-Bartholdy,_Felix)", "path": "sources/mendelssohn_e_minor_mvt1/01_violinwiki-mendelssohn-e-mvt1.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://stringsmagazine.com/the-spiccato-bariolage-passage-of-mendelssohns-violin-concerto-is-one-challenge-among-many/", "path": "sources/mendelssohn_e_minor_mvt1/02_stringsmag-spiccato-bariolage.md"},
+        {"n": "03", "source_type": "other", "source_url": "https://stringsmagazine.com/tips-on-nailing-tricky-double-stops-in-mendelssohns-violin-concerto/", "path": "sources/mendelssohn_e_minor_mvt1/03_stringsmag-double-stops.md"}
+      ]
+    },
+    {
+      "piece_id": "mendelssohn_e_minor_mvt3",
+      "sources": [
+        {"n": "01", "source_type": "other", "source_url": "https://www.violinwiki.org/wiki/Violin_Concerto_No._2_in_E_minor,_Op._64,_MWV_O_14,_3rd_Movement_(Mendelssohn-Bartholdy,_Felix)", "path": "sources/mendelssohn_e_minor_mvt3/01_violinwiki-mendelssohn-e-mvt3.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://coloradomusicfestival.org/mendelssohns-violin-concerto-a-jewel-that-changed-a-genre/", "path": "sources/mendelssohn_e_minor_mvt3/02_coloradomusicfest-jewel.md"}
+      ]
+    },
+    {
+      "piece_id": "lalo_symphonie_espagnole_mvt1",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://interlude.hk/mixing-the-symphony-and-the-concerto-lalo-symphonie-espagnole/", "path": "sources/lalo_symphonie_espagnole_mvt1/01_interlude-lalo-symphonie.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://usuo.org/explore/2020/03/lalo-symphonie-espagnole/", "path": "sources/lalo_symphonie_espagnole_mvt1/02_usuo-clive-symphonie.md"},
+        {"n": "03", "source_type": "other", "source_url": "https://www.violinwiki.org/wiki/Symphonie_espagnole,_Op._21,_1st_Movement_(Lalo,_%C3%89douard)", "path": "sources/lalo_symphonie_espagnole_mvt1/03_violinwiki-lalo-mvt1.md"}
+      ]
+    }
+  ],
+  "dropped": [],
+  "skipped_urls": [
+    {"url": "https://www.violinist.com/discussion/archive/18974/", "reason": "violinist.com 403 Forbidden on WebFetch (confirmed source-type failure)"},
+    {"url": "https://www.violinist.com/discussion/archive/25932/", "reason": "violinist.com 403 (not attempted)"},
+    {"url": "https://www.violinist.com/discussion/archive/7311/", "reason": "violinist.com 403 (not attempted)"},
+    {"url": "https://www.violinist.com/discussion/archive/5751/", "reason": "violinist.com 403 (not attempted)"},
+    {"url": "https://www.violinist.com/discussion/archive/12922/", "reason": "violinist.com 403 (not attempted)"},
+    {"url": "https://estheryooviolin.com/practice-tips-ricochet-mendelssohn-violin-concerto/", "reason": "403 Forbidden on WebFetch"},
+    {"url": "https://www.thestrad.com/playing-hub/esther-yoos-practice-tips-ricochet-mendelssohns-violin-concerto/10596.article", "reason": "WebFetch returned SKIP — page is video-only, no article body"},
+    {"url": "https://www.thestrad.com/for-subscribers/sentimental-work-eldbj%C3%B8rg-hemsing-on-bruchs-violin-concerto/16859.article", "reason": "WebFetch summarized despite prompt — quality unclear, not saved"},
+    {"url": "https://www.benjaminzander.org/library/lalo-symphonie-espagnole-1st-movement/", "reason": "SKIP — video page, no article body"},
+    {"url": "https://www.classicalmusic-notes.com/bruch-violin-concerto1/", "reason": "SKIP — no technique content"}
+  ]
+}

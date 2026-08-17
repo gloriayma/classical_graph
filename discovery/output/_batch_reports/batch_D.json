@@ -1,0 +1,134 @@
+{
+  "batch_id": "batch_D",
+  "pieces": [
+    {
+      "piece_id": "brahms_d_major_mvt3",
+      "sources": [
+        {"n": "01", "source_type": "other", "source_url": "https://floridaorchestra.org/program-notes/program-notes-brahms-violin-concerto-2223/", "path": "sources/brahms_d_major_mvt3/01_floridaorchestra-clive.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://slso.org/brahms-violin-concerto-april-11-13-2025/", "path": "sources/brahms_d_major_mvt3/02_slso-program-note.md"},
+        {"n": "03", "source_type": "other", "source_url": "https://redwoodsymphony.org/piece/violin-concerto-brahms/", "path": "sources/brahms_d_major_mvt3/03_redwood-symphony.md"},
+        {"n": "04", "source_type": "other", "source_url": "https://www.bso.org/works/brahms-violin-concerto", "path": "sources/brahms_d_major_mvt3/04_bso-swafford.md"},
+        {"n": "05", "source_type": "other", "source_url": "https://www.laphil.com/musicdb/pieces/6755/violin-concerto", "path": "sources/brahms_d_major_mvt3/05_laphil-macdonald.md"}
+      ]
+    },
+    {
+      "piece_id": "beethoven_d_major_mvt1",
+      "sources": [
+        {"n": "01", "source_type": "other", "source_url": "https://www.indianapolissymphony.org/backstage/program-notes/beethoven-concerto-for-violin-and-orchestra/", "path": "sources/beethoven_d_major_mvt1/01_indianapolissymphony.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://stringsmagazine.com/a-new-way-to-practice-the-octaves-in-beethovens-violin-concerto/", "path": "sources/beethoven_d_major_mvt1/02_strings-mag-walker-octaves.md"},
+        {"n": "03", "source_type": "blog", "source_url": "https://www.linglinghuang.com/music-writing/2017/07/02/beethoven-violin-concerto", "path": "sources/beethoven_d_major_mvt1/03_linglinghuang-blog.md"}
+      ]
+    },
+    {
+      "piece_id": "bach_chaconne",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://rhapsodyinwords.com/2014/09/09/a-study-of-j-s-bachs-baroque-violin-masterpiece-the-chaconne-in-d-minor/", "path": "sources/bach_chaconne/01_rhapsodyinwords-blog.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://www.violinorum.com/us/chaconne-johann-sebastian-bach-bwv-1004/", "path": "sources/bach_chaconne/02_violinorum-full-article.md"},
+        {"n": "03", "source_type": "other", "source_url": "https://www.hyperion-records.co.uk/tw.asp?w=W6736", "path": "sources/bach_chaconne/03_hyperion-anderson.md"}
+      ]
+    },
+    {
+      "piece_id": "bach_fugue_g_minor_bwv1001",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://thelistenersclub.com/2024/11/04/bachs-violin-sonata-no-1-in-g-minor-bwv-1001-james-ehnes-at-home/", "path": "sources/bach_fugue_g_minor_bwv1001/01_listenersclub-ehnes.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://www.laphil.com/musicdb/pieces/3505/sonata-no-1-in-g-minor-for-solo-violin-bwv-1001", "path": "sources/bach_fugue_g_minor_bwv1001/02_laphil-program-note.md"},
+        {"n": "03", "source_type": "other", "source_url": "https://www.hyperion-records.co.uk/tw.asp?w=W6733", "path": "sources/bach_fugue_g_minor_bwv1001/03_hyperion-anderson.md"}
+      ]
+    },
+    {
+      "piece_id": "bach_fugue_c_major_bwv1005",
+      "sources": [
+        {"n": "01", "source_type": "other", "source_url": "https://vanrecital.com/2014/04/program-notes-christian-tetzlaff/", "path": "sources/bach_fugue_c_major_bwv1005/01_vanrecital-tetzlaff.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://www.hyperion-records.co.uk/tw.asp?w=W6737", "path": "sources/bach_fugue_c_major_bwv1005/02_hyperion-anderson.md"},
+        {"n": "03", "source_type": "blog", "source_url": "https://www.rolf-musicblog.net/bach-sonata-no-3-in-c-major-for-violin-solo-bwv-1005/", "path": "sources/bach_fugue_c_major_bwv1005/03_rolf-musicblog.md"}
+      ]
+    },
+    {
+      "piece_id": "bach_preludio_e_major_bwv1006",
+      "sources": [
+        {"n": "01", "source_type": "other", "source_url": "https://www.hyperion-records.co.uk/tw.asp?w=W6738", "path": "sources/bach_preludio_e_major_bwv1006/01_hyperion-anderson-liner.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://stringsmagazine.com/all-motions-great-small-how-to-practice-string-crossing-technique-for-bariolage/", "path": "sources/bach_preludio_e_major_bwv1006/02_stringsmag-niles-bariolage.md"},
+        {"n": "03", "source_type": "tonebase", "source_url": "https://www.tonebase.co/violin-blog-posts/bach-violin-partita-3", "path": "sources/bach_preludio_e_major_bwv1006/03_tonebase-hagen-partita3.md"},
+        {"n": "04", "source_type": "blog", "source_url": "https://violinspiration.com/bariolage/", "path": "sources/bach_preludio_e_major_bwv1006/04_violinspiration-bariolage.md"}
+      ]
+    },
+    {
+      "piece_id": "bach_presto_g_minor_bwv1001",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://thelistenersclub.com/2024/11/04/bachs-violin-sonata-no-1-in-g-minor-bwv-1001-james-ehnes-at-home/", "path": "sources/bach_presto_g_minor_bwv1001/01_listenersclub-ehnes.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://www.parlancechamberconcerts.org/individual-program-notes/johann-sebastian-bach-(1685-1750)/adagio-and-presto-from-sonata-no.-1-in-g-minor-for-unaccompanied-violin,-bwv-1001", "path": "sources/bach_presto_g_minor_bwv1001/02_parlance-jaffe.md"},
+        {"n": "03", "source_type": "other", "source_url": "https://www.laphil.com/musicdb/pieces/3505/sonata-no-1-in-g-minor-for-solo-violin-bwv-1001", "path": "sources/bach_presto_g_minor_bwv1001/03_laphil-program-note.md"},
+        {"n": "04", "source_type": "other", "source_url": "https://www.hyperion-records.co.uk/tw.asp?w=W6733", "path": "sources/bach_presto_g_minor_bwv1001/04_hyperion-anderson.md"}
+      ]
+    },
+    {
+      "piece_id": "bach_adagio_g_minor_bwv1001",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://thelistenersclub.com/2024/11/04/bachs-violin-sonata-no-1-in-g-minor-bwv-1001-james-ehnes-at-home/", "path": "sources/bach_adagio_g_minor_bwv1001/01_listenersclub-ehnes.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://www.parlancechamberconcerts.org/individual-program-notes/johann-sebastian-bach-(1685-1750)/adagio-and-presto-from-sonata-no.-1-in-g-minor-for-unaccompanied-violin,-bwv-1001", "path": "sources/bach_adagio_g_minor_bwv1001/02_parlance-jaffe.md"},
+        {"n": "03", "source_type": "blog", "source_url": "https://www.sonatasandpartitas.com/articles/?selected=article_detail&id=2&rtn=article&work_id=27", "path": "sources/bach_adagio_g_minor_bwv1001/03_sonatasandpartitas-derome.md"},
+        {"n": "04", "source_type": "other", "source_url": "https://www.laphil.com/musicdb/pieces/3505/sonata-no-1-in-g-minor-for-solo-violin-bwv-1001", "path": "sources/bach_adagio_g_minor_bwv1001/04_laphil-program-note.md"},
+        {"n": "05", "source_type": "other", "source_url": "https://www.hyperion-records.co.uk/tw.asp?w=W6733", "path": "sources/bach_adagio_g_minor_bwv1001/05_hyperion-anderson.md"}
+      ]
+    },
+    {
+      "piece_id": "ysaye_sonata1_mvt1",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://ecmreviews.com/2012/03/29/ysaye-sonates/", "path": "sources/ysaye_sonata1_mvt1/01_ecmreviews-zehetmair.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://vanrecital.com/2014/04/program-notes-christian-tetzlaff/", "path": "sources/ysaye_sonata1_mvt1/02_vanrecital-tetzlaff.md"},
+        {"n": "03", "source_type": "other", "source_url": "https://www.maramarietta.com/the-arts/music/classical/ysaye/", "path": "sources/ysaye_sonata1_mvt1/03_maramarietta-griffiths-stowell.md"},
+        {"n": "04", "source_type": "other", "source_url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA67993", "path": "sources/ysaye_sonata1_mvt1/04_hyperion-nichols.md"},
+        {"n": "05", "source_type": "other", "source_url": "https://www.hyperion-records.co.uk/dw.asp?dc=W7754_66940", "path": "sources/ysaye_sonata1_mvt1/05_hyperion-nichols-son1.md"}
+      ]
+    },
+    {
+      "piece_id": "ysaye_sonata2_mvt1",
+      "sources": [
+        {"n": "01", "source_type": "other", "source_url": "https://www.laphil.com/musicdb/pieces/3446/sonata-in-a-minor-for-solo-violin-obsession-op-27-no-2", "path": "sources/ysaye_sonata2_mvt1/01_laphil-program-note.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://ecmreviews.com/2012/03/29/ysaye-sonates/", "path": "sources/ysaye_sonata2_mvt1/02_ecmreviews-zehetmair.md"},
+        {"n": "03", "source_type": "other", "source_url": "https://www.maramarietta.com/the-arts/music/classical/ysaye/", "path": "sources/ysaye_sonata2_mvt1/03_maramarietta-griffiths-stowell.md"},
+        {"n": "04", "source_type": "other", "source_url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA67993", "path": "sources/ysaye_sonata2_mvt1/04_hyperion-nichols.md"}
+      ]
+    },
+    {
+      "piece_id": "ysaye_sonata3_ballade",
+      "sources": [
+        {"n": "01", "source_type": "other", "source_url": "https://www.laphil.com/musicdb/pieces/4590/violin-sonata-in-d-minor-op-27-no-3-ballade", "path": "sources/ysaye_sonata3_ballade/01_laphil-program-note.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://thelistenersclub.com/2023/12/01/eugene-ysayes-sonata-no-3-in-d-minor-ballade-shunsuke-sato/", "path": "sources/ysaye_sonata3_ballade/02_listenersclub-sato.md"},
+        {"n": "03", "source_type": "blog", "source_url": "https://ecmreviews.com/2012/03/29/ysaye-sonates/", "path": "sources/ysaye_sonata3_ballade/03_ecmreviews-zehetmair.md"},
+        {"n": "04", "source_type": "other", "source_url": "https://www.maramarietta.com/the-arts/music/classical/ysaye/", "path": "sources/ysaye_sonata3_ballade/04_maramarietta-griffiths-stowell.md"},
+        {"n": "05", "source_type": "other", "source_url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA67993", "path": "sources/ysaye_sonata3_ballade/05_hyperion-nichols.md"}
+      ]
+    },
+    {
+      "piece_id": "ysaye_sonata4_mvt1",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://ecmreviews.com/2012/03/29/ysaye-sonates/", "path": "sources/ysaye_sonata4_mvt1/01_ecmreviews-zehetmair.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://www.maramarietta.com/the-arts/music/classical/ysaye/", "path": "sources/ysaye_sonata4_mvt1/02_maramarietta-griffiths-stowell.md"},
+        {"n": "03", "source_type": "other", "source_url": "https://www.hyperion-records.co.uk/dw.asp?dc=W7757_66940", "path": "sources/ysaye_sonata4_mvt1/03_hyperion-nichols.md"}
+      ]
+    }
+  ],
+  "dropped": [],
+  "skipped_urls": [
+    {"url": "https://www.thestrad.com/for-subscribers/masterclass-ida-haendel-on-bachs-chaconne-in-d-minor/18242.article", "reason": "Strad paywalled"},
+    {"url": "https://www.thestrad.com/playing-hub/masterclass-augustin-hadelich-on-beethovens-violin-concerto-first-movement-part-1/10179.article", "reason": "Strad paywalled"},
+    {"url": "https://www.thestrad.com/playing-hub/masterclass-augustin-hadelich-on-beethovens-violin-concerto-first-movement-part-2/10312.article", "reason": "Strad paywalled"},
+    {"url": "https://www.thestrad.com/for-subscribers/masterclass-brahms-violin-concerto-second-movement/20324.article", "reason": "Strad paywalled"},
+    {"url": "https://www.thestrad.com/for-subscribers/masterclass-antje-weithaas-on-brahms-violin-concerto-part-1/15934.article", "reason": "Strad paywalled"},
+    {"url": "https://www.thestrad.com/for-subscribers/masterclass-antje-weithaas-on-brahms-violin-concerto-part-2/15939.article", "reason": "Strad paywalled"},
+    {"url": "https://www.violinist.com/discussion/archive/4486/", "reason": "violinist.com 403"},
+    {"url": "https://www.violinist.com/blog/laurie/20219/28910/", "reason": "violinist.com 403"},
+    {"url": "https://www.violinist.com/blog/laurie/20219/28907/", "reason": "violinist.com 403"},
+    {"url": "https://kuscholarworks.ku.edu/server/api/core/bitstreams/2bbaca44-f353-4dcd-bf0f-010f1dee1150/content", "reason": "KU dissertation 403"},
+    {"url": "https://scholarworks.calstate.edu/downloads/db78tk288", "reason": "CSU dissertation 403"},
+    {"url": "https://digitalcommons.lib.uconn.edu/cgi/viewcontent.cgi?article=1755&context=srhonors_theses", "reason": "UConn thesis 403"},
+    {"url": "https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send?accession=akron1405364000&disposition=inline", "reason": "OhioLink dissertation returned binary PDF stream, unreadable"},
+    {"url": "https://mtosmt.org/issues/mto.24.30.3/mto.24.30.3.cole.pdf", "reason": "PDF binary stream, unreadable"},
+    {"url": "https://scholarworks.uni.edu/cgi/viewcontent.cgi?article=1805&context=hpt", "reason": "UNI thesis 403"},
+    {"url": "https://tecs.org/wp-content/uploads/2021/08/HADELICH-PROG.-NOTES.pdf", "reason": "PDF binary stream, unreadable"},
+    {"url": "https://www.earsense.org/chamber-music/Eugene-Ysaye-Sonata-in-g-minor-Op-27-No-1/", "reason": "TLS cert verification error"},
+    {"url": "https://www.earsense.org/chamber-music/Eugene-Ysaye-Sonata-in-e-minor-Op-27-No-4/", "reason": "TLS cert verification error"},
+    {"url": "https://www.earsense.org/chamber-music/Eugene-Ysaye-Sonata-in-d-minor-Op-27-No-3-Ballade/", "reason": "TLS cert verification error"}
+  ]
+}

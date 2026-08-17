@@ -1,0 +1,105 @@
+{
+  "batch_id": "batch_G",
+  "pieces": [
+    {
+      "piece_id": "strauss_sonata_eb_mvt1",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://www.o-em.org/wp/strauss-sonata-interpretations/", "path": "sources/strauss_sonata_eb_mvt1/01_o-em-heifetz-midori.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://www.laphil.com/musicdb/pieces/3483/sonata-in-e-flat-major-op-18", "path": "sources/strauss_sonata_eb_mvt1/02_laphil.md"}
+      ]
+    },
+    {
+      "piece_id": "grieg_sonata3_c_minor_mvt1",
+      "sources": [
+        {"n": "01", "source_type": "other", "source_url": "https://www.hyperion-records.co.uk/dw.asp?dc=W6999_67504", "path": "sources/grieg_sonata3_c_minor_mvt1/01_hyperion.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://classicalexburns.com/2020/11/29/edvard-grieg-violin-sonata-no-3-vivacious-violin/", "path": "sources/grieg_sonata3_c_minor_mvt1/02_classicalexburns.md"}
+      ]
+    },
+    {
+      "piece_id": "bartok_concerto2_mvt1",
+      "sources": [
+        {"n": "01", "source_type": "other", "source_url": "https://www.benjaminzander.org/library/bartok-violin-concerto-no-2-1st-movement/", "path": "sources/bartok_concerto2_mvt1/01_zander-masterclass.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://fugueforthought.de/2016/08/11/bartok-violin-concerto-no-2-bb-117/", "path": "sources/bartok_concerto2_mvt1/02_fugueforthought.md"},
+        {"n": "03", "source_type": "other", "source_url": "https://tarisio.com/lso-digital-exhibition/bartok-szekely-skride/", "path": "sources/bartok_concerto2_mvt1/03_tarisio.md"},
+        {"n": "04", "source_type": "blog", "source_url": "https://thelistenersclub.com/2020/09/28/bartoks-second-violin-concerto-a-musical-farewell-to-hungary/", "path": "sources/bartok_concerto2_mvt1/04_listenersclub.md"}
+      ]
+    },
+    {
+      "piece_id": "berg_violin_concerto",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://boulezian.blogspot.com/2023/02/kopatchinskajalsoroth-ligeti-and.html", "path": "sources/berg_violin_concerto/01_boulezian-kopatchinskaja.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://sorinamu.blog/alban-berg-violin-concerto-to-the-memory-of-an-angel/", "path": "sources/berg_violin_concerto/02_sorinamu-analysis.md"},
+        {"n": "03", "source_type": "blog", "source_url": "https://thelistenersclub.com/2019/11/11/alban-bergs-violin-concerto-an-autumnal-requiem/", "path": "sources/berg_violin_concerto/03_listenersclub.md"},
+        {"n": "04", "source_type": "blog", "source_url": "https://erikfergusonmusic.wordpress.com/2016/06/03/violin-concerto-alban-berg/", "path": "sources/berg_violin_concerto/04_erikferguson.md"}
+      ]
+    },
+    {
+      "piece_id": "shostakovich_concerto1_mvt3_passacaglia",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://thelistenersclub.com/2023/03/10/shostakovichs-first-violin-concerto-dangerous-music-for-the-desk-drawer/", "path": "sources/shostakovich_concerto1_mvt3_passacaglia/01_listenersclub.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://houstonsymphony.org/shostakovich-violin-concerto-1/", "path": "sources/shostakovich_concerto1_mvt3_passacaglia/02_houston-symphony.md"},
+        {"n": "03", "source_type": "other", "source_url": "https://tarisio.com/lso-digital-exhibition/shostakovich-oistrakh-kavakos/", "path": "sources/shostakovich_concerto1_mvt3_passacaglia/03_tarisio.md"}
+      ]
+    },
+    {
+      "piece_id": "shostakovich_concerto1_mvt4_burlesque",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://thelistenersclub.com/2023/03/10/shostakovichs-first-violin-concerto-dangerous-music-for-the-desk-drawer/", "path": "sources/shostakovich_concerto1_mvt4_burlesque/01_listenersclub.md"},
+        {"n": "02", "source_type": "other", "source_url": "https://houstonsymphony.org/shostakovich-violin-concerto-1/", "path": "sources/shostakovich_concerto1_mvt4_burlesque/02_houston-symphony.md"},
+        {"n": "03", "source_type": "other", "source_url": "https://tarisio.com/lso-digital-exhibition/shostakovich-oistrakh-kavakos/", "path": "sources/shostakovich_concerto1_mvt4_burlesque/03_tarisio.md"}
+      ]
+    },
+    {
+      "piece_id": "stravinsky_concerto_d_mvt1",
+      "sources": [
+        {"n": "01", "source_type": "other", "source_url": "https://houstonsymphony.org/stravinsky-violin-concerto/", "path": "sources/stravinsky_concerto_d_mvt1/01_houston-symphony.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://theclassicreview.com/album-reviews/review-stravinsky-violin-concerto-orchestral-suites-james-ehnes-sir-andrew-davis/", "path": "sources/stravinsky_concerto_d_mvt1/02_classic-review-ehnes.md"},
+        {"n": "03", "source_type": "blog", "source_url": "http://themusicsalon.blogspot.com/2015/07/concerto-guide-stravinsky-concerto-in-d.html", "path": "sources/stravinsky_concerto_d_mvt1/03_music-salon.md"}
+      ]
+    },
+    {
+      "piece_id": "schoenberg_violin_concerto_mvt1",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://boulezian.blogspot.com/2020/03/the-violinist-is-really-playing-fiddle.html", "path": "sources/schoenberg_violin_concerto_mvt1/01_boulezian-blog.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://fugueforthought.de/2017/09/01/schoenberg-violin-concerto-op-36/", "path": "sources/schoenberg_violin_concerto_mvt1/02_fugueforthought.md"},
+        {"n": "03", "source_type": "other", "source_url": "https://www.laphil.com/musicdb/pieces/4504/violin-concerto", "path": "sources/schoenberg_violin_concerto_mvt1/03_laphil-krasner.md"}
+      ]
+    },
+    {
+      "piece_id": "ligeti_concerto_mvt5",
+      "sources": [
+        {"n": "01", "source_type": "blog", "source_url": "https://bostonclassicalreview.com/2018/01/hadelich-and-ades-deliver-supreme-advocacy-for-ligeti-rarity-with-bso/", "path": "sources/ligeti_concerto_mvt5/01_boston-classical-review.md"},
+        {"n": "02", "source_type": "strad", "source_url": "https://www.thestrad.com/reviews/augustin-hadelich-brahms-ligeti/9137.article", "path": "sources/ligeti_concerto_mvt5/02_strad-hadelich-review.md"},
+        {"n": "03", "source_type": "blog", "source_url": "https://boulezian.blogspot.com/2023/02/kopatchinskajalsoroth-ligeti-and.html", "path": "sources/ligeti_concerto_mvt5/03_boulezian-kopatchinskaja.md"}
+      ]
+    },
+    {
+      "piece_id": "ades_concentric_paths",
+      "sources": [
+        {"n": "01", "source_type": "strad", "source_url": "https://www.thestrad.com/playing-hub/something-deeply-human-and-expressive-breaks-through-leila-josefowicz-on-the-violin-concerto-of-thomas-ades/20448.article", "path": "sources/ades_concentric_paths/01_josefowicz-strad.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://theclassicreview.com/album-reviews/review-elgar-ades-violin-concertos-christian-tetzlaff/", "path": "sources/ades_concentric_paths/02_classic-review-tetzlaff.md"},
+        {"n": "03", "source_type": "other", "source_url": "https://www.laphil.com/musicdb/pieces/6291/violin-concerto-concentric-paths", "path": "sources/ades_concentric_paths/03_laphil.md"}
+      ]
+    },
+    {
+      "piece_id": "penderecki_concerto2_metamorphosen",
+      "sources": [
+        {"n": "01", "source_type": "strad", "source_url": "https://www.thestrad.com/featured-stories/sentimental-work-anne-sophie-mutter-on-pendereckis-metamorphosen/10462.article", "path": "sources/penderecki_concerto2_metamorphosen/01_mutter-strad.md"},
+        {"n": "02", "source_type": "blog", "source_url": "https://walter-simmons.com/writings/669", "path": "sources/penderecki_concerto2_metamorphosen/02_walter-simmons.md"},
+        {"n": "03", "source_type": "blog", "source_url": "http://www.musicweb-international.com/classrev/2003/Apr03/Penderecki.htm", "path": "sources/penderecki_concerto2_metamorphosen/03_musicweb.md"}
+      ]
+    }
+  ],
+  "dropped": [],
+  "skipped_urls": [
+    {"url": "https://www.thestrad.com/masterclass/masterclass-baiba-skride-on-the-berg-violin-concerto-first-movement/7570.article", "reason": "paywalled"},
+    {"url": "https://www.thestrad.com/for-subscribers/masterclass-leila-josefowicz-on-berg-violin-concerto-second-movement-part-1/9725.article", "reason": "paywalled"},
+    {"url": "https://www.violinist.com/discussion/archive/9275/", "reason": "403"},
+    {"url": "https://www.violinist.com/blog/laurie/20187/27370/", "reason": "403"},
+    {"url": "https://www.violinist.com/blog/paulinefiddle/20085/8660/", "reason": "403"},
+    {"url": "https://www.violinist.com/blog/jennyviola/20263/30706/", "reason": "403"},
+    {"url": "https://www.digitalconcerthall.com/en/interview/2575-5", "reason": "no substantive body content in fetch"},
+    {"url": "https://www.sfsymphony.org/Data/Event-Data/Program-Notes/B/Berg-Violin-Concerto", "reason": "site safety redirect"},
+    {"url": "https://www.classicstoday.com/review/great-ligeti-interesting-bartok/", "reason": "loading page only"}
+  ]
+}
